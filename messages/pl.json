@@ -12,5 +12,9 @@
   },
   "Logo": {
     "aria-link-homepage": "Strona główna."
+  },
+  "LocaleSwitcher": {
+    "label": "Zmień język",
+    "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
   }
 }
