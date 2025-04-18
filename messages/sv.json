@@ -1,6 +1,16 @@
 {
   "HomePage": {
-    "page-title": "Detta är hemsidan.",
-    "page-description": "Detta är beskrivningen av hemsidan."
+    "page-title": "Veterinär Hembesök i Stockholm - Professionell Vård Hemma för Hund, Katt & Kanin.",
+    "page-description": "Boka ett hembesök av en erfaren veterinär i Storstockholm. Vi erbjuder trygg och smidig vård i ditt hem - för hundar, katter och kaniner som förtjänar det bästa."
+  },
+  "Navigation": {
+    "services": "Veterinär tjänster",
+    "home-visit": "Hembesök",
+    "prices": "Priser",
+    "advices": "Tips & råd",
+    "book": "Boka tid"
+  },
+  "Logo": {
+    "aria-link-homepage": "Startsida."
   }
 }

@@ -40,9 +40,7 @@ export default async function RootLayout({ children, params }: Props) {
   setRequestLocale(locale)
   return (
     <html lang={locale}>
-      <body
-        className={`${montserrat.variable} ${workSans.variable} antialiased`}
-      >
+      <body className={`${montserrat.variable} ${workSans.variable} antialiased`}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
