@@ -1,7 +1,5 @@
-"use client"
 import { useMessages, useTranslations } from 'next-intl'
 import Link from 'next/link'
-import { useSelectedLayoutSegment } from 'next/navigation'
 
 export const Nav = () => {
   const t = useTranslations('Navigation')
