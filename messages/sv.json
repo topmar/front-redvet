@@ -12,5 +12,9 @@
   },
   "Logo": {
     "aria-link-homepage": "Startsida."
+  },
+  "LocaleSwitcher": {
+    "label": "Språkval",
+    "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Annat}}"
   }
 }

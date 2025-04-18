@@ -15,6 +15,11 @@ declare const messages: {
   },
   "Logo": {
     "aria-link-homepage": "Home page."
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
   }
+
 };
 export default messages;
