@@ -1,6 +1,16 @@
 {
   "HomePage": {
-    "page-title": "To jest strona domowa",
-    "page-description": "To jest opis strony domowej"
+    "page-title": "Weterynarz z dojazdem w Sztokholmie - Profesjonalna opieka w domu dla psa, kota i królika.",
+    "page-description": "Umów wizytę domową doświadczonego weterynarza w regionie Sztokholmu. Oferujemy profesjonalną i wygodną opiekę w Twoim domu - dla psów, kotów i królików, które zasługują na to, co najlepsze."
+  },
+  "Navigation": {
+    "services": "Usługi weterynaryjne",
+    "home-visit": "Wizyta domowa",
+    "prices": "Cennik",
+    "advices": "Porady i wskazówki",
+    "book": "Umów wizytę"
+  },
+  "Logo": {
+    "aria-link-homepage": "Strona główna."
   }
 }

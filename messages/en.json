@@ -1,11 +1,14 @@
 {
   "HomePage": {
-    "page-title": "This is Home page.",
-    "page-description": "This is Home page description."
+    "page-title": "Veterinary Home Visits in Stockholm - Professional Care at Home for Dogs, Cats & Rabbits.",
+    "page-description": "Book a home visit from an experienced vet in the Greater Stockholm area. We offer professional and convenient care in your home - for dogs, cats and rabbits who deserve the very best."
   },
   "Navigation": {
-    "Services": "Services",
-    "Price": "Price"
+    "services": "Veterinary services",
+    "home-visit": "Home visit",
+    "prices": "Prices",
+    "advices": "Tips & Advice",
+    "book": "Book appointment"
   },
   "Logo": {
     "aria-link-homepage": "Home page."
