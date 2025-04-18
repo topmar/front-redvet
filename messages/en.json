@@ -2,5 +2,8 @@
   "HomePage": {
     "page-title": "This is Home page.",
     "page-description": "This is Home page description."
+  },
+  "Logo": {
+    "aria-link-homepage": "Home page."
   }
 }
