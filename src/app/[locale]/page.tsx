@@ -1,5 +1,6 @@
 import HeroAbout from '@/components/HeroAbout'
 import HeroBanner from '@/components/HeroBanner'
+import HeroBooking from '@/components/HeroBooking'
 import HeroServices from '@/components/HeroServices'
 import { Locale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
@@ -18,6 +19,7 @@ export default function Home({ params }: Props) {
       <HeroBanner />
       <HeroServices />
       <HeroAbout />
+      <HeroBooking />
     </main>
   )
 }
