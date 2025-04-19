@@ -1,10 +1,10 @@
 import { LINKS } from '@/lib/constants'
-import { useTranslations } from 'next-intl'
+import { getTranslations } from 'next-intl/server'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const HeroBanner = () => {
-  const t = useTranslations('HeroBanner')
+const HeroBanner = async () => {
+  const t = await getTranslations('HeroBanner')
   return (
     <div className="relative w-full h-screen md:h-[900px]">
       <Image

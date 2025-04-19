@@ -1,10 +1,10 @@
 import { LINKS } from '@/lib/constants'
-import { useTranslations } from 'next-intl'
+import { getTranslations } from 'next-intl/server'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const HeroServices = () => {
-  const t = useTranslations('HeroServices')
+const HeroServices = async () => {
+  const t = await getTranslations('HeroServices')
   return (
     <section className="flex flex-col h-90 md:flex-row md:h-60 w-full gap-[1]">
       <div className="relative flex-1">
