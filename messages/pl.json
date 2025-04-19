@@ -21,5 +21,19 @@
     "title-row1": "VETERYNARIA Z MIŁOŚCIĄ",
     "title-row2": "Mobilne usługi weterynaryjne bez wychodzenia z domu",
     "button-book-appointment": "Umów wizytę domową"
+  },
+  "HeroServices": {
+    "vaccination": {
+      "text": "SZCZEPIENIA",
+      "aria-label": "Dowiedz się więcej o szczepieniach"
+    },
+    "veterinary-care": {
+      "text": "OPIEKA WETERYNARYJNA\nW DOMU",
+      "aria-label": "Dowiedz się więcej o opiece weterynaryjnej w domu"
+    },
+    "end-of-life": {
+      "text": "OPIEKA W OSTATNICH\nCHWILACH ŻYCIA",
+      "aria-label": "Dowiedz się więcej o opiece w ostatnich chwilach życia"
+    }
   }
 }
