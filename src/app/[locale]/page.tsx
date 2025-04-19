@@ -1,3 +1,4 @@
+import HeroBanner from '@/components/HeroBanner'
 import { Locale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import { use } from 'react'
@@ -10,5 +11,9 @@ export default function Home({ params }: Props) {
   const { locale } = use(params)
   setRequestLocale(locale)
 
-  return <></>
+  return (
+    <main>
+      <HeroBanner />
+    </main>
+  )
 }

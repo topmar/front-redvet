@@ -16,5 +16,10 @@
   "LocaleSwitcher": {
     "label": "Språkval",
     "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Annat}}"
+  },
+  "HeroBanner": {
+    "title-row1": "VETERINÄRVÅRD MED KÄRLEK",
+    "title-row2": "Mobila veterinärtjänster utan att lämna hemmet",
+    "button-book-appointment": "Boka hembesök"
   }
 }
