@@ -11,7 +11,7 @@ declare const messages: {
     "home-visit": "Home visit",
     "prices": "Prices",
     "advices": "Tips & Advice",
-    "book": "Book appointment"
+    "book": "Book Appointment"
   },
   "Logo": {
     "aria-link-homepage": "Home page."

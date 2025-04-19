@@ -4,6 +4,7 @@ import { Locale, NextIntlClientProvider } from 'next-intl'
 import { ReactNode } from 'react'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
+import Header from '@/components/Header'
 
 type Props = {
   children: ReactNode
@@ -41,7 +42,10 @@ export default async function RootLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body className={`${montserrat.variable} ${workSans.variable} antialiased`}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   )
