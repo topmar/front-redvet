@@ -1,4 +1,5 @@
 import HeroBanner from '@/components/HeroBanner'
+import HeroServices from '@/components/HeroServices'
 import { Locale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import { use } from 'react'
@@ -14,6 +15,7 @@ export default function Home({ params }: Props) {
   return (
     <main>
       <HeroBanner />
+      <HeroServices />
     </main>
   )
 }

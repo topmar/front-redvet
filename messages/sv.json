@@ -21,5 +21,19 @@
     "title-row1": "VETERINÄRVÅRD MED KÄRLEK",
     "title-row2": "Mobila veterinärtjänster utan att lämna hemmet",
     "button-book-appointment": "Boka hembesök"
+  },
+  "HeroServices": {
+    "vaccination": {
+      "text": "VACCINATIONER",
+      "aria-label": "Läs mer om vaccinationer"
+    },
+    "veterinary-care": {
+      "text": "VETERINÄRVÅRD HEMMA",
+      "aria-label": "Läs mer om veterinärvård hemma"
+    },
+    "end-of-life": {
+      "text": "AVSLUTNING AV LIVET",
+      "aria-label": "Läs mer om stöd vid livets slut"
+    }
   }
 }

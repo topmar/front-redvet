@@ -21,5 +21,19 @@
     "title-row1": "VETERINARY CARE WITH LOVE",
     "title-row2": "Mobile veterinary services without leaving home",
     "button-book-appointment": "Book home visit"
+  },
+  "HeroServices": {
+    "vaccination": {
+      "text": "VACCINATIONS",
+      "aria-label": "Read more about vaccinations"
+    },
+    "veterinary-care": {
+      "text": "VETERINARY CARE\nAT HOME",
+      "aria-label": "Read more about veterinary care at home"
+    },
+    "end-of-life": {
+      "text": "END OF LIFE CARE",
+      "aria-label": "Read more about end of life care"
+    }
   }
 }
