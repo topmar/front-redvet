@@ -19,6 +19,7 @@
 
 # production
 /build
+/messages/en.d.json.ts
 
 # misc
 .DS_Store
