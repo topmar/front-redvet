@@ -45,5 +45,8 @@
   "HeroBooking": {
     "title": "UMÓW SIĘ NA NASTĘPNĄ WIZYTĘ",
     "link": "UMÓW WIZYTĘ"
+  },
+  "OpeningTime": {
+    "title": "Godziny otwarcia"
   }
 }
