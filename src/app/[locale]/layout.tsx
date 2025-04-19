@@ -5,6 +5,7 @@ import { ReactNode } from 'react'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 type Props = {
   children: ReactNode
@@ -45,6 +46,7 @@ export default async function RootLayout({ children, params }: Props) {
         <NextIntlClientProvider>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
