@@ -46,5 +46,8 @@
   "HeroBooking": {
     "title": "SCHEDULE YOUR NEXT VISIT NOW",
     "link": "BOOK APPOINTMENT"
+  },
+  "OpeningTime": {
+    "title": "Opening time"
   }
 }

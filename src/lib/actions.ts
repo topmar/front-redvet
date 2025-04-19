@@ -10,3 +10,15 @@ export const fetchContact = async () => {
   }
   return res.json()
 }
+export const fetchOpeningTime = async (locale: string) => {
+  const res = await fetch(ENDPOINTS.OPENING_TIME, {
+    next: { revalidate: CACHE_TTL },
+    headers: {
+      'Accept-Language': locale
+    }
+  })
+  if (!res.ok) {
+    throw new Error(ERROR_MESSAGES.FETCH_OPENING_TIME)
+  }
+  return res.json()
+}

@@ -45,5 +45,8 @@
   "HeroBooking": {
     "title": "BOKA DITT NÄSTA BESÖK NU",
     "link": "BOKA TID"
+  },
+  "OpeningTime": {
+    "title": "Öppettider"
   }
 }
