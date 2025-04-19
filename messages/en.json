@@ -49,5 +49,27 @@
   },
   "OpeningTime": {
     "title": "Opening time"
+  },
+  "ContactUs": {
+    "title": "Contact Us",
+    "Owner-label": "Owner's Name",
+    "Owner-placeholder": "Enter owner's name",
+    "Animal-label": "Animal's Name",
+    "Animal-placeholder": "Enter animal's name",
+    "Email-label": "Email Address",
+    "Email-placeholder": "Enter your email address",
+    "Tel-label": "Phone Number",
+    "Tel-placeholder": "Enter your phone number",
+    "Message-label": "Message",
+    "Message-placeholder": "Enter your message",
+    "Button-submit": "SUBMIT",
+    "Error-owner": "Owner's name is required",
+    "Error-email": "Please enter a valid email address",
+    "Error-tel-too-short": "Phone number is too short",
+    "Error-tel-too-long": "Phone number is too long",
+    "Error-message-too-short": "Message is too short",
+    "Error-message-too-long": "Message is too long",
+    "Send-success": "Form submitted successfully",
+    "Error-send": "Error sending the form"
   }
 }

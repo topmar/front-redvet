@@ -40,7 +40,8 @@
     "title": "VÄLKOMMEN TILL REDVET DJURKLINIK",
     "subtitle": "Ring oss på <link>{tel}</link>",
     "description": "På RedVet erbjuder vi högkvalitativ veterinärvård med fokus på medkänsla och professionalism. Vårt erfarna team är dedikerat till att säkerställa hälsa och välbefinnande för dina husdjur, och vi erbjuder ett brett utbud av tjänster som möter deras behov.",
-    "link": "LÄS MER"
+    "link-text": "LÄS MER",
+    "link": "/about"
   },
   "HeroBooking": {
     "title": "BOKA DITT NÄSTA BESÖK NU",
@@ -48,5 +49,27 @@
   },
   "OpeningTime": {
     "title": "Öppettider"
+  },
+  "ContactUs": {
+    "title": "Kontakta oss",
+    "Owner-label": "Ägarens namn",
+    "Owner-placeholder": "Ange ägarens namn",
+    "Animal-label": "Djurens namn",
+    "Animal-placeholder": "Ange djurets namn",
+    "Email-label": "E-postadress",
+    "Email-placeholder": "Ange din e-postadress",
+    "Tel-label": "Telefonnummer",
+    "Tel-placeholder": "Ange ditt telefonnummer",
+    "Message-label": "Meddelande",
+    "Message-placeholder": "Skriv ditt meddelande",
+    "Button-submit": "SKICKA",
+    "Error-owner": "Ägarens namn krävs",
+    "Error-email": "Ange en giltig e-postadress",
+    "Error-tel-too-short": "Telefonnummer är för kort",
+    "Error-tel-too-long": "Telefonnummer är för långt",
+    "Error-message-too-short": "Meddelandet är för kort",
+    "Error-message-too-long": "Meddelandet är för långt",
+    "Send-success": "Formuläret har skickats",
+    "Error-send": "Fel vid skickande av formuläret"
   }
 }

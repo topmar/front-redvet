@@ -1,3 +1,4 @@
+import ContactUs from './ContactUs'
 import FooterCopyright from './FooterCopyright'
 import OpeningTime from './OpeningTime'
 
@@ -6,6 +7,7 @@ const Footer = () => {
     <footer>
       <OpeningTime />
       <FooterCopyright />
+      <ContactUs />
     </footer>
   )
 }
