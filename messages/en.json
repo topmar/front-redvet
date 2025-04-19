@@ -16,6 +16,10 @@
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
+  },
+  "HeroBanner": {
+    "title-row1": "VETERINARY CARE WITH LOVE",
+    "title-row2": "Mobile veterinary services without leaving home",
+    "button-book-appointment": "Book home visit"
   }
-
 }

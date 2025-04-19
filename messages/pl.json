@@ -16,5 +16,10 @@
   "LocaleSwitcher": {
     "label": "Zmień język",
     "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
+  },
+  "HeroBanner": {
+    "title-row1": "VETERYNARIA Z MIŁOŚCIĄ",
+    "title-row2": "Mobilne usługi weterynaryjne bez wychodzenia z domu",
+    "button-book-appointment": "Umów wizytę domową"
   }
 }
