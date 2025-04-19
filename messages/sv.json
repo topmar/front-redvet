@@ -35,5 +35,11 @@
       "text": "AVSLUTNING AV LIVET",
       "aria-label": "Läs mer om stöd vid livets slut"
     }
+  },
+  "HeroAbout": {
+    "title": "VÄLKOMMEN TILL REDVET DJURKLINIK",
+    "subtitle": "Ring oss på <link>{tel}</link>",
+    "description": "På RedVet erbjuder vi högkvalitativ veterinärvård med fokus på medkänsla och professionalism. Vårt erfarna team är dedikerat till att säkerställa hälsa och välbefinnande för dina husdjur, och vi erbjuder ett brett utbud av tjänster som möter deras behov.",
+    "link": "LÄS MER"
   }
 }
