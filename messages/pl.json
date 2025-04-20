@@ -71,5 +71,20 @@
     "Error-message-too-long": "Wiadomość jest za długa",
     "Send-success": "Formularz został wysłany pomyślnie",
     "Error-send": "Wystąpił błąd przy wysyłaniu formularza"
+  },
+  "FooterInfo": {
+    "facebook-title": "Odwiedź nas na Facebooku",
+    "facebook-link": "Odwiedź naszą stronę na Facebooku",
+    "instagram-title": "Odwiedź nas na Instagramie",
+    "instagram-link": "Odwiedź naszego Instagrama"
+  },
+  "GoogleRating": {
+    "rating": "Ocena: {rating} na 5",
+    "reviews": "{count} recenzji Google"
+  },
+  "ContactFooter": {
+    "contact-us": "Skontaktuj się z nami przez",
+    "by-email": "e-mail",
+    "by-phone": "telefon"
   }
 }

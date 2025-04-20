@@ -22,3 +22,12 @@ export const fetchOpeningTime = async (locale: string) => {
   }
   return res.json()
 }
+export const fetchGoogleRating = async () => {
+  const res = await fetch(ENDPOINTS.GOOGLE_RATING, {
+    next: { revalidate: CACHE_TTL }
+  })
+  if (!res.ok) {
+    throw new Error(ERROR_MESSAGES.FETCH_GOOGLE_RATING)
+  }
+  return res.json()
+}

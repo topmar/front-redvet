@@ -71,5 +71,20 @@
     "Error-message-too-long": "Meddelandet är för långt",
     "Send-success": "Formuläret har skickats",
     "Error-send": "Fel vid skickande av formuläret"
+  },
+  "FooterInfo": {
+    "facebook-title": "Besök oss på Facebook",
+    "facebook-link": "Besök vår Facebook-sida",
+    "instagram-title": "Besök oss på Instagram",
+    "instagram-link": "Besök vår Instagram"
+  },
+  "GoogleRating": {
+    "rating": "Betyg: {rating} av 5",
+    "reviews": "{count} Google recensioner"
+  },
+  "FooterContact": {
+    "contact-us": "Kontakta oss via",
+    "by-email": "e-post",
+    "by-phone": "telefon"
   }
 }
