@@ -2,11 +2,13 @@ const BACKEND_URL = `${process.env.PUBLIC_API_URL}/backend/api/web`
 
 export const ENDPOINTS = {
   CONTACT: `${BACKEND_URL}/contact`,
-  OPENING_TIME: `${BACKEND_URL}/time`
+  OPENING_TIME: `${BACKEND_URL}/time`,
+  GOOGLE_RATING: `${BACKEND_URL}/rating`
 }
 export const ERROR_MESSAGES = {
   FETCH_CONTACT: 'Failed to fetch contact',
-  FETCH_OPENING_TIME: 'Failed to fetch opening time'
+  FETCH_OPENING_TIME: 'Failed to fetch opening time',
+  FETCH_GOOGLE_RATING: 'Failed to fetch google rating'
 }
 export const LINKS = {
   BOOK: '/book',

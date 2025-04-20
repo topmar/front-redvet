@@ -40,7 +40,8 @@
     "title": "VÄLKOMMEN TILL REDVET DJURKLINIK",
     "subtitle": "Ring oss på <link>{tel}</link>",
     "description": "På RedVet erbjuder vi högkvalitativ veterinärvård med fokus på medkänsla och professionalism. Vårt erfarna team är dedikerat till att säkerställa hälsa och välbefinnande för dina husdjur, och vi erbjuder ett brett utbud av tjänster som möter deras behov.",
-    "link": "LÄS MER"
+    "link-text": "LÄS MER",
+    "link": "/about"
   },
   "HeroBooking": {
     "title": "BOKA DITT NÄSTA BESÖK NU",
@@ -48,5 +49,20 @@
   },
   "OpeningTime": {
     "title": "Öppettider"
+  },
+  "FooterInfo": {
+    "facebook-title": "Besök oss på Facebook",
+    "facebook-link": "Besök vår Facebook-sida",
+    "instagram-title": "Besök oss på Instagram",
+    "instagram-link": "Besök vår Instagram"
+  },
+  "GoogleRating": {
+    "rating": "Betyg: {rating} av 5",
+    "reviews": "{count} Google recensioner"
+  },
+  "FooterContact": {
+    "contact-us": "Kontakta oss via",
+    "by-email": "e-post",
+    "by-phone": "telefon"
   }
 }
