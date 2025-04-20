@@ -9,6 +9,8 @@ const LogoSVG = ({ className, isColor = false }: LogoProps) => {
   const color = '#e40019'
   return (
     <svg
+      role="img"
+      aria-label="RedVet Djurklinik logo"
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 2029 767"

@@ -49,5 +49,20 @@
   },
   "OpeningTime": {
     "title": "Opening time"
+  },
+  "FooterInfo": {
+    "facebook-title": "Visit us on Facebook",
+    "facebook-link": "Visit our Facebook page",
+    "instagram-title": "Visit us on Instagram",
+    "instagram-link": "Visit our Instagram"
+  },
+  "GoogleRating": {
+    "rating": "Rating: {rating} out of 5",
+    "reviews": "{count} Google reviews"
+  },
+  "FooterContact":{
+    "contact-us": "Contact us via",
+    "by-email": "email",
+    "by-phone": "phone"
   }
 }
