@@ -86,9 +86,14 @@
     "title": "What our clients say",
     "description": "Discover how we've made a difference in the lives of pets and their owners"
   },
-  "FooterContact":{
+  "FooterContact": {
     "contact-us": "Contact us via",
     "by-email": "email",
     "by-phone": "phone"
+  },
+  "HeroNews": {
+    "headline": "News",
+    "prev": "Previous news item",
+    "next": "Next news item"
   }
 }

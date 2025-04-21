@@ -90,5 +90,10 @@
     "contact-us": "Kontakta oss via",
     "by-email": "e-post",
     "by-phone": "telefon"
+  },
+  "HeroNews": {
+    "headline": "Nyheter",
+    "prev": "Föregående nyhet",
+    "next": "Nästa nyhet"
   }
 }

@@ -40,6 +40,18 @@ export const fetchGoogleReviews = async () => {
   }
   return res.json()
 }
+export const fetchNews = async (locale: string) => {
+  const res = await fetch(ENDPOINTS.NEWS, {
+    next: { revalidate: CACHE_TTL },
+    headers: {
+      'Accept-Language': locale
+    }
+  })
+  if (!res.ok) {
+    throw new Error(ERROR_MESSAGES.FETCH_NEWS)
+  }
+  return res.json()
+}
 
 //client request
 export const sendContactForm = async (values: any) => {

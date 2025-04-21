@@ -2,6 +2,7 @@ import { LINKS } from '@/lib/constants'
 import { getTranslations } from 'next-intl/server'
 import Image from 'next/image'
 import Link from 'next/link'
+import HeroNews from './HeroNews'
 
 const HeroBanner = async () => {
   const t = await getTranslations('HeroBanner')
@@ -32,13 +33,14 @@ const HeroBanner = async () => {
             inline-flex items-center justify-center whitespace-nowrap transition-all shrink-0
             outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[2px]
             bg-[#f7f7f7] shadow-xs hover:bg-[#f7f7f7]/80
-            mt-8 h-10 px-6 w-full max-w-[70%] mx-auto md:mx-0 font-semibold text-base text-center"
+            mt-8 h-10 px-6 w-100 max-w-[70%] mx-auto md:mx-0 font-semibold text-base text-center"
             aria-label={t('button-book-appointment')}
           >
             {t('button-book-appointment')}
           </Link>
         </div>
       </section>
+      <HeroNews />
     </div>
   )
 }
