@@ -50,6 +50,28 @@
   "OpeningTime": {
     "title": "Godziny otwarcia"
   },
+  "ContactUs": {
+    "title": "Kontakt",
+    "Owner-label": "Imię właściciela",
+    "Owner-placeholder": "Wpisz imię właściciela",
+    "Animal-label": "Imię zwierzęcia",
+    "Animal-placeholder": "Wpisz imię zwierzęcia",
+    "Email-label": "Adres e-mail",
+    "Email-placeholder": "Wpisz swój adres e-mail",
+    "Tel-label": "Numer telefonu",
+    "Tel-placeholder": "Wpisz swój numer telefonu",
+    "Message-label": "Wiadomość",
+    "Message-placeholder": "Wpisz swoją wiadomość",
+    "Button-submit": "WYŚLIJ",
+    "Error-owner": "Imię właściciela jest wymagane",
+    "Error-email": "Podaj prawidłowy adres e-mail",
+    "Error-tel-too-short": "Numer telefonu jest za krótki",
+    "Error-tel-too-long": "Numer telefonu jest za długi",
+    "Error-message-too-short": "Wiadomość jest za krótka",
+    "Error-message-too-long": "Wiadomość jest za długa",
+    "Send-success": "Formularz został wysłany pomyślnie",
+    "Error-send": "Wystąpił błąd przy wysyłaniu formularza"
+  },
   "FooterInfo": {
     "facebook-title": "Odwiedź nas na Facebooku",
     "facebook-link": "Odwiedź naszą stronę na Facebooku",
@@ -60,7 +82,7 @@
     "rating": "Ocena: {rating} na 5",
     "reviews": "{count} recenzji Google"
   },
-  "ContactFooter": {
+  "FooterContact": {
     "contact-us": "Skontaktuj się z nami przez",
     "by-email": "e-mail",
     "by-phone": "telefon"

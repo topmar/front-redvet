@@ -50,6 +50,28 @@
   "OpeningTime": {
     "title": "Öppettider"
   },
+  "ContactUs": {
+    "title": "Kontakta oss",
+    "Owner-label": "Ägarens namn",
+    "Owner-placeholder": "Ange ägarens namn",
+    "Animal-label": "Djurens namn",
+    "Animal-placeholder": "Ange djurets namn",
+    "Email-label": "E-postadress",
+    "Email-placeholder": "Ange din e-postadress",
+    "Tel-label": "Telefonnummer",
+    "Tel-placeholder": "Ange ditt telefonnummer",
+    "Message-label": "Meddelande",
+    "Message-placeholder": "Skriv ditt meddelande",
+    "Button-submit": "SKICKA",
+    "Error-owner": "Ägarens namn krävs",
+    "Error-email": "Ange en giltig e-postadress",
+    "Error-tel-too-short": "Telefonnummer är för kort",
+    "Error-tel-too-long": "Telefonnummer är för långt",
+    "Error-message-too-short": "Meddelandet är för kort",
+    "Error-message-too-long": "Meddelandet är för långt",
+    "Send-success": "Formuläret har skickats",
+    "Error-send": "Fel vid skickande av formuläret"
+  },
   "FooterInfo": {
     "facebook-title": "Besök oss på Facebook",
     "facebook-link": "Besök vår Facebook-sida",
