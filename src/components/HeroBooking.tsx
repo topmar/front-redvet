@@ -4,7 +4,7 @@ import Link from 'next/link'
 const HeroBooking = async () => {
   const t = await getTranslations('HeroBooking')
   return (
-    <section className="relative bg-amber-700 text-center p-13" aria-labelledby="hero-booking">
+    <section className="relative bg-red-500 text-center p-13" aria-labelledby="hero-booking">
       <h2 id="hero-booking" className="text-2xl text-white">
         {t('title')}
       </h2>

@@ -49,7 +49,7 @@ export default function ContactUs() {
   }
 
   return (
-    <section className="bg-amber-600">
+    <section className="bg-red-800">
       <div className="max-w-5xl mx-auto py-12 px-4">
         <h2 className="text-2xl font-semibold mb-6 text-left text-white">{t('title')}</h2>
         <form onSubmit={form.handleSubmit(onSubmit)}>
