@@ -90,5 +90,10 @@
     "contact-us": "Skontaktuj się z nami przez",
     "by-email": "e-mail",
     "by-phone": "telefon"
+  },
+  "HeroNews": {
+    "headline": "Aktualności",
+    "prev": "Poprzednia wiadomość",
+    "next": "Następna wiadomość"
   }
 }

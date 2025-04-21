@@ -6,14 +6,16 @@ export const ENDPOINTS = {
   OPENING_TIME: `${BACKEND_URL}/time`,
   GOOGLE_RATING: `${BACKEND_URL}/rating`,
   GOOGLE_REVIEWS: `${BACKEND_URL}/opinions`,
-  CONTACT_SEND: `${CLIENT_URL}/formtest`
+  CONTACT_SEND: `${CLIENT_URL}/formtest`,
+  NEWS: `${BACKEND_URL}/news`
 }
 export const ERROR_MESSAGES = {
   FETCH_CONTACT: 'Failed to fetch contact',
   FETCH_OPENING_TIME: 'Failed to fetch opening time',
   FETCH_GOOGLE_RATING: 'Failed to fetch google rating',
   FETCH_GOOGLE_REVIEWS: 'Failed to fetch google reviews',
-  FETCH_CONTACT_SEND: 'Failed to submit form'
+  FETCH_CONTACT_SEND: 'Failed to submit form',
+  FETCH_NEWS: 'Failed to fetch news'
 }
 export const LINKS = {
   BOOK: '/book',
