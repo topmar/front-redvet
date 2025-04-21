@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer>
       <OpeningTime />
+      <ContactUs />
       <FooterInfo />
       <FooterCopyright />
-      <ContactUs />
     </footer>
   )
 }

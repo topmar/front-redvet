@@ -82,7 +82,7 @@
     "rating": "Ocena: {rating} na 5",
     "reviews": "{count} recenzji Google"
   },
-  "ContactFooter": {
+  "FooterContact": {
     "contact-us": "Skontaktuj się z nami przez",
     "by-email": "e-mail",
     "by-phone": "telefon"

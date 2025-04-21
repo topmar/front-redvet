@@ -31,3 +31,14 @@ export const fetchGoogleRating = async () => {
   }
   return res.json()
 }
+
+//client request
+export const sendContactForm = async (values: any) => {
+  const res = await fetch(ENDPOINTS.CONTACT_SEND, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(values)
+  })
+
+  if (!res.ok) throw new Error(ERROR_MESSAGES.FETCH_CONTACT_SEND)
+}
