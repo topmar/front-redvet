@@ -31,6 +31,15 @@ export const fetchGoogleRating = async () => {
   }
   return res.json()
 }
+export const fetchGoogleReviews = async () => {
+  const res = await fetch(ENDPOINTS.GOOGLE_REVIEWS, {
+    next: { revalidate: CACHE_TTL }
+  })
+  if (!res.ok) {
+    throw new Error(ERROR_MESSAGES.FETCH_GOOGLE_REVIEWS)
+  }
+  return res.json()
+}
 
 //client request
 export const sendContactForm = async (values: any) => {

@@ -82,6 +82,10 @@
     "rating": "Ocena: {rating} na 5",
     "reviews": "{count} recenzji Google"
   },
+  "HeroReviews": {
+    "title": "Co mówią nasi klienci",
+    "description": "Dowiedz się, jak pomagamy zwierzętom i ich opiekunom"
+  },
   "FooterContact": {
     "contact-us": "Skontaktuj się z nami przez",
     "by-email": "e-mail",
