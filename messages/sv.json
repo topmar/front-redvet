@@ -82,6 +82,10 @@
     "rating": "Betyg: {rating} av 5",
     "reviews": "{count} Google recensioner"
   },
+  "HeroReviews": {
+    "title": "Vad våra kunder säger",
+    "description": "Upptäck hur vi har gjort skillnad i livet för husdjur och deras ägare"
+  },
   "FooterContact": {
     "contact-us": "Kontakta oss via",
     "by-email": "e-post",

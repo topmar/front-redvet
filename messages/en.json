@@ -82,6 +82,10 @@
     "rating": "Rating: {rating} out of 5",
     "reviews": "{count} Google reviews"
   },
+  "HeroReviews": {
+    "title": "What our clients say",
+    "description": "Discover how we've made a difference in the lives of pets and their owners"
+  },
   "FooterContact":{
     "contact-us": "Contact us via",
     "by-email": "email",
