@@ -40,7 +40,7 @@
     "title": "WITAMY W REDVET DJURKLINIK",
     "subtitle": "Zadzwoń do nas pod numer <link>{tel}</link>",
     "description": "W RedVet zapewniamy wysokiej jakości opiekę weterynaryjną, kładąc duży nacisk na współczucie i profesjonalizm. Nasz doświadczony zespół dba o zdrowie i dobre samopoczucie Twoich pupili, oferując szeroki zakres usług, które spełniają ich potrzeby.",
-    "link-text": "PRZECZYTAJ WIĘCEJ",
+    "link-text": "Więcej o nas",
     "link": "/about"
   },
   "HeroBooking": {

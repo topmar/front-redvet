@@ -40,7 +40,7 @@
     "title": "WELCOME TO REDVET DJURKLINIK",
     "subtitle": "Call us at <link>{tel}</link>",
     "description": "At RedVet, we provide high-quality veterinary care with a focus on compassion and professionalism. Our experienced team is dedicated to ensuring the health and well-being of your pets, offering a wide range of services to meet their needs.",
-    "link-text": "READ MORE",
+    "link-text": "More about us",
     "link": "/about"
   },
   "HeroBooking": {
