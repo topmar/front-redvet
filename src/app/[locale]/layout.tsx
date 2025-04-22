@@ -1,4 +1,4 @@
-import { Montserrat, Roboto, Work_Sans } from 'next/font/google'
+import { Montserrat, Work_Sans } from 'next/font/google'
 import './globals.css'
 import { Locale, NextIntlClientProvider } from 'next-intl'
 import { ReactNode } from 'react'

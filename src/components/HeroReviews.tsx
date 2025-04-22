@@ -24,7 +24,7 @@ export const HeroReviews = async () => {
 
       <div className="w-full px-3 mx-auto mt-10">
         <Carousel align="start" loop>
-          {reviews.map((review: review, i: number) => {
+          {reviews.map((review: review) => {
             return (
               <article
                 className="relative h-auto flex flex-col flex-[0_0_auto] min-w-[300px] max-w-[300px] md:max-w-[350px] bg-white p-6 rounded-[5] shadow-md last:mr-4"
