@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { useTranslations } from 'next-intl'
 import { sendContactForm } from '@/lib/actions'
+import { ContactFormValues } from '@/types/contact'
 
 export default function ContactUs() {
   const t = useTranslations('ContactUs')
@@ -25,7 +26,7 @@ export default function ContactUs() {
       .max(600, { message: t('Error-message-too-long') })
   })
 
-  const form = useForm({
+  const form = useForm<ContactFormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       ownerName: '',
@@ -36,7 +37,7 @@ export default function ContactUs() {
     }
   })
 
-  async function onSubmit(values: z.infer<typeof formSchema>) {
+  async function onSubmit(values: ContactFormValues) {
     try {
       await sendContactForm(values)
       // toast.success(t('Send-success'))
@@ -49,7 +50,7 @@ export default function ContactUs() {
   }
 
   return (
-    <section className="bg-amber-600">
+    <section className="bg-red-800">
       <div className="max-w-5xl mx-auto py-12 px-4">
         <h2 className="text-2xl font-semibold mb-6 text-left text-white">{t('title')}</h2>
         <form onSubmit={form.handleSubmit(onSubmit)}>

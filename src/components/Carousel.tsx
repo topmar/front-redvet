@@ -3,7 +3,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import AutoScroll from 'embla-carousel-auto-scroll'
 import { EmblaOptionsType } from 'embla-carousel'
 import React from 'react'
-import { PropsWithChildren, useEffect, useState } from 'react'
+import { PropsWithChildren, useEffect } from 'react'
 
 type Props = PropsWithChildren & EmblaOptionsType
 

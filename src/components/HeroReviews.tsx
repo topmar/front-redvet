@@ -16,7 +16,7 @@ export const HeroReviews = async () => {
   const reviews = await fetchGoogleReviews()
 
   return (
-    <section className="bg-blue-100 py-10">
+    <section className="bg-gray-400 py-10">
       <header className='max-w-7xl mx-auto px-4'>
         <h2 className="text-2xl">{t('title')}</h2>
         <h3>{t('description')}</h3>
@@ -24,7 +24,7 @@ export const HeroReviews = async () => {
 
       <div className="w-full px-3 mx-auto mt-10">
         <Carousel align="start" loop>
-          {reviews.map((review: review, i: number) => {
+          {reviews.map((review: review) => {
             return (
               <article
                 className="relative h-auto flex flex-col flex-[0_0_auto] min-w-[300px] max-w-[300px] md:max-w-[350px] bg-white p-6 rounded-[5] shadow-md last:mr-4"
@@ -38,7 +38,7 @@ export const HeroReviews = async () => {
                     <p className="text-[1.1rem] mr-5">{review.author}</p>
                     <p className="text-[0.7rem] text-gray-500">{review.date} Google reviews</p>
                   </span>
-                  <RatingStars rating={review.stars} size={3} />
+                  <RatingStars rating={review.stars} size={4} />
                 </div>
               </article>
             )

@@ -1,3 +1,4 @@
+import { ContactFormValues } from "@/types/contact"
 import { ENDPOINTS, ERROR_MESSAGES } from "./constants"
 const CACHE_TTL = Number(process.env.CACHE_TTL_SECONDS) || 604800
 
@@ -54,7 +55,7 @@ export const fetchNews = async (locale: string) => {
 }
 
 //client request
-export const sendContactForm = async (values: any) => {
+export const sendContactForm = async (values: ContactFormValues) => {
   const res = await fetch(ENDPOINTS.CONTACT_SEND, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
