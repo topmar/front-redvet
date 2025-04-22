@@ -9,7 +9,7 @@ const GoogleRating = async () => {
     <div className="flex flex-col items-center mt-6">
       <div className="flex items-center space-x-1">
         <span
-          className="text-2xl font-bold text-amber-800"
+          className="text-2xl font-bold text-red-900"
           aria-label={t('rating', { rating: rating.toFixed(1) })}
         >
           {rating.toFixed(1)}
