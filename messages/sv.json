@@ -1,0 +1,99 @@
+{
+  "HomePage": {
+    "page-title": "Veterinär Hembesök i Stockholm - Professionell Vård Hemma för Hund, Katt & Kanin.",
+    "page-description": "Boka ett hembesök av en erfaren veterinär i Storstockholm. Vi erbjuder trygg och smidig vård i ditt hem - för hundar, katter och kaniner som förtjänar det bästa."
+  },
+  "Navigation": {
+    "services": "Veterinärtjänster",
+    "home-visit": "Hembesök",
+    "prices": "Priser",
+    "advices": "Tips & råd",
+    "book": "Boka tid"
+  },
+  "Logo": {
+    "aria-link-homepage": "Startsida."
+  },
+  "LocaleSwitcher": {
+    "label": "Språkval",
+    "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Annat}}"
+  },
+  "HeroBanner": {
+    "title-row1": "VETERINÄRVÅRD MED KÄRLEK",
+    "title-row2": "Mobila veterinärtjänster utan att lämna hemmet",
+    "button-book-appointment": "Boka hembesök"
+  },
+  "HeroServices": {
+    "vaccination": {
+      "text": "VACCINATIONER",
+      "aria-label": "Läs mer om vaccinationer"
+    },
+    "veterinary-care": {
+      "text": "VETERINÄRVÅRD HEMMA",
+      "aria-label": "Läs mer om veterinärvård hemma"
+    },
+    "end-of-life": {
+      "text": "AVSLUTNING AV LIVET",
+      "aria-label": "Läs mer om stöd vid livets slut"
+    }
+  },
+  "HeroAbout": {
+    "title": "VÄLKOMMEN TILL REDVET DJURKLINIK",
+    "subtitle": "Ring oss på <link>{tel}</link>",
+    "description": "På RedVet erbjuder vi högkvalitativ veterinärvård med fokus på medkänsla och professionalism. Vårt erfarna team är dedikerat till att säkerställa hälsa och välbefinnande för dina husdjur, och vi erbjuder ett brett utbud av tjänster som möter deras behov.",
+    "link-text": "Mer om oss",
+    "link": "/about"
+  },
+  "HeroBooking": {
+    "title": "BOKA DITT NÄSTA BESÖK NU",
+    "link": "BOKA TID"
+  },
+  "OpeningTime": {
+    "title": "Öppettider"
+  },
+  "ContactUs": {
+    "title": "Kontakta oss",
+    "Owner-label": "Ägarens namn",
+    "Owner-placeholder": "Ange ägarens namn",
+    "Animal-label": "Djurens namn",
+    "Animal-placeholder": "Ange djurets namn",
+    "Email-label": "E-postadress",
+    "Email-placeholder": "Ange din e-postadress",
+    "Tel-label": "Telefonnummer",
+    "Tel-placeholder": "Ange ditt telefonnummer",
+    "Message-label": "Meddelande",
+    "Message-placeholder": "Skriv ditt meddelande",
+    "Button-submit": "SKICKA",
+    "Error-owner": "Ägarens namn krävs",
+    "Error-email": "Ange en giltig e-postadress",
+    "Error-tel-too-short": "Telefonnummer är för kort",
+    "Error-tel-too-long": "Telefonnummer är för långt",
+    "Error-message-too-short": "Meddelandet är för kort",
+    "Error-message-too-long": "Meddelandet är för långt",
+    "Send-success": "Formuläret har skickats",
+    "Error-send": "Fel vid skickande av formuläret"
+  },
+  "FooterInfo": {
+    "facebook-title": "Besök oss på Facebook",
+    "facebook-link": "Besök vår Facebook-sida",
+    "instagram-title": "Besök oss på Instagram",
+    "instagram-link": "Besök vår Instagram"
+  },
+  "GoogleRating": {
+    "rating": "Betyg: {rating} av 5",
+    "reviews": "{count} Google recensioner"
+  },
+  "HeroReviews": {
+    "title": "Vad våra kunder säger",
+    "description": "Upptäck hur vi har gjort skillnad i livet för husdjur och deras ägare"
+  },
+  "FooterContact": {
+    "contact-us": "Kontakta oss via",
+    "by-email": "e-post",
+    "by-phone": "telefon"
+  },
+  "HeroNews": {
+    "headline": "Nyheter",
+    "prev": "Föregående nyhet",
+    "next": "Nästa nyhet"
+  }
+}

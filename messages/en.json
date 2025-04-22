@@ -1,0 +1,99 @@
+{
+  "HomePage": {
+    "page-title": "Veterinary Home Visits in Stockholm - Professional Care at Home for Dogs, Cats & Rabbits.",
+    "page-description": "Book a home visit from an experienced vet in the Greater Stockholm area. We offer professional and convenient care in your home - for dogs, cats and rabbits who deserve the very best."
+  },
+  "Navigation": {
+    "services": "Veterinary services",
+    "home-visit": "Home visit",
+    "prices": "Prices",
+    "advices": "Tips & Advice",
+    "book": "Book Appointment"
+  },
+  "Logo": {
+    "aria-link-homepage": "Home page."
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
+  },
+  "HeroBanner": {
+    "title-row1": "VETERINARY CARE WITH LOVE",
+    "title-row2": "Mobile veterinary services without leaving home",
+    "button-book-appointment": "Book home visit"
+  },
+  "HeroServices": {
+    "vaccination": {
+      "text": "VACCINATIONS",
+      "aria-label": "Read more about vaccinations"
+    },
+    "veterinary-care": {
+      "text": "VETERINARY CARE\nAT HOME",
+      "aria-label": "Read more about veterinary care at home"
+    },
+    "end-of-life": {
+      "text": "END OF LIFE CARE",
+      "aria-label": "Read more about end of life care"
+    }
+  },
+  "HeroAbout": {
+    "title": "WELCOME TO REDVET DJURKLINIK",
+    "subtitle": "Call us at <link>{tel}</link>",
+    "description": "At RedVet, we provide high-quality veterinary care with a focus on compassion and professionalism. Our experienced team is dedicated to ensuring the health and well-being of your pets, offering a wide range of services to meet their needs.",
+    "link-text": "More about us",
+    "link": "/about"
+  },
+  "HeroBooking": {
+    "title": "SCHEDULE YOUR NEXT VISIT NOW",
+    "link": "BOOK APPOINTMENT"
+  },
+  "OpeningTime": {
+    "title": "Opening time"
+  },
+  "ContactUs": {
+    "title": "Contact Us",
+    "Owner-label": "Owner's Name",
+    "Owner-placeholder": "Enter owner's name",
+    "Animal-label": "Animal's Name",
+    "Animal-placeholder": "Enter animal's name",
+    "Email-label": "Email Address",
+    "Email-placeholder": "Enter your email address",
+    "Tel-label": "Phone Number",
+    "Tel-placeholder": "Enter your phone number",
+    "Message-label": "Message",
+    "Message-placeholder": "Enter your message",
+    "Button-submit": "SUBMIT",
+    "Error-owner": "Owner's name is required",
+    "Error-email": "Please enter a valid email address",
+    "Error-tel-too-short": "Phone number is too short",
+    "Error-tel-too-long": "Phone number is too long",
+    "Error-message-too-short": "Message is too short",
+    "Error-message-too-long": "Message is too long",
+    "Send-success": "Form submitted successfully",
+    "Error-send": "Error sending the form"
+  },
+  "FooterInfo": {
+    "facebook-title": "Visit us on Facebook",
+    "facebook-link": "Visit our Facebook page",
+    "instagram-title": "Visit us on Instagram",
+    "instagram-link": "Visit our Instagram"
+  },
+  "GoogleRating": {
+    "rating": "Rating: {rating} out of 5",
+    "reviews": "{count} Google reviews"
+  },
+  "HeroReviews": {
+    "title": "What our clients say",
+    "description": "Discover how we've made a difference in the lives of pets and their owners"
+  },
+  "FooterContact": {
+    "contact-us": "Contact us via",
+    "by-email": "email",
+    "by-phone": "phone"
+  },
+  "HeroNews": {
+    "headline": "News",
+    "prev": "Previous news item",
+    "next": "Next news item"
+  }
+}

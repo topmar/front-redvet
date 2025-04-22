@@ -1,0 +1,99 @@
+{
+  "HomePage": {
+    "page-title": "Weterynarz z dojazdem w Sztokholmie - Profesjonalna opieka w domu dla psa, kota i królika.",
+    "page-description": "Umów wizytę domową doświadczonego weterynarza w regionie Sztokholmu. Oferujemy profesjonalną i wygodną opiekę w Twoim domu - dla psów, kotów i królików, które zasługują na to, co najlepsze."
+  },
+  "Navigation": {
+    "services": "Usługi weterynaryjne",
+    "home-visit": "Wizyta domowa",
+    "prices": "Cennik",
+    "advices": "Porady i wskazówki",
+    "book": "Umów wizytę"
+  },
+  "Logo": {
+    "aria-link-homepage": "Strona główna."
+  },
+  "LocaleSwitcher": {
+    "label": "Zmień język",
+    "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
+  },
+  "HeroBanner": {
+    "title-row1": "VETERYNARIA Z MIŁOŚCIĄ",
+    "title-row2": "Mobilne usługi weterynaryjne bez wychodzenia z domu",
+    "button-book-appointment": "Umów wizytę domową"
+  },
+  "HeroServices": {
+    "vaccination": {
+      "text": "SZCZEPIENIA",
+      "aria-label": "Dowiedz się więcej o szczepieniach"
+    },
+    "veterinary-care": {
+      "text": "OPIEKA WETERYNARYJNA\nW DOMU",
+      "aria-label": "Dowiedz się więcej o opiece weterynaryjnej w domu"
+    },
+    "end-of-life": {
+      "text": "OPIEKA W OSTATNICH\nCHWILACH ŻYCIA",
+      "aria-label": "Dowiedz się więcej o opiece w ostatnich chwilach życia"
+    }
+  },
+  "HeroAbout": {
+    "title": "WITAMY W REDVET DJURKLINIK",
+    "subtitle": "Zadzwoń do nas pod numer <link>{tel}</link>",
+    "description": "W RedVet zapewniamy wysokiej jakości opiekę weterynaryjną, kładąc duży nacisk na współczucie i profesjonalizm. Nasz doświadczony zespół dba o zdrowie i dobre samopoczucie Twoich pupili, oferując szeroki zakres usług, które spełniają ich potrzeby.",
+    "link-text": "Więcej o nas",
+    "link": "/about"
+  },
+  "HeroBooking": {
+    "title": "UMÓW SIĘ NA NASTĘPNĄ WIZYTĘ",
+    "link": "UMÓW WIZYTĘ"
+  },
+  "OpeningTime": {
+    "title": "Godziny otwarcia"
+  },
+  "ContactUs": {
+    "title": "Kontakt",
+    "Owner-label": "Imię właściciela",
+    "Owner-placeholder": "Wpisz imię właściciela",
+    "Animal-label": "Imię zwierzęcia",
+    "Animal-placeholder": "Wpisz imię zwierzęcia",
+    "Email-label": "Adres e-mail",
+    "Email-placeholder": "Wpisz swój adres e-mail",
+    "Tel-label": "Numer telefonu",
+    "Tel-placeholder": "Wpisz swój numer telefonu",
+    "Message-label": "Wiadomość",
+    "Message-placeholder": "Wpisz swoją wiadomość",
+    "Button-submit": "WYŚLIJ",
+    "Error-owner": "Imię właściciela jest wymagane",
+    "Error-email": "Podaj prawidłowy adres e-mail",
+    "Error-tel-too-short": "Numer telefonu jest za krótki",
+    "Error-tel-too-long": "Numer telefonu jest za długi",
+    "Error-message-too-short": "Wiadomość jest za krótka",
+    "Error-message-too-long": "Wiadomość jest za długa",
+    "Send-success": "Formularz został wysłany pomyślnie",
+    "Error-send": "Wystąpił błąd przy wysyłaniu formularza"
+  },
+  "FooterInfo": {
+    "facebook-title": "Odwiedź nas na Facebooku",
+    "facebook-link": "Odwiedź naszą stronę na Facebooku",
+    "instagram-title": "Odwiedź nas na Instagramie",
+    "instagram-link": "Odwiedź naszego Instagrama"
+  },
+  "GoogleRating": {
+    "rating": "Ocena: {rating} na 5",
+    "reviews": "{count} recenzji Google"
+  },
+  "HeroReviews": {
+    "title": "Co mówią nasi klienci",
+    "description": "Dowiedz się, jak pomagamy zwierzętom i ich opiekunom"
+  },
+  "FooterContact": {
+    "contact-us": "Skontaktuj się z nami przez",
+    "by-email": "e-mail",
+    "by-phone": "telefon"
+  },
+  "HeroNews": {
+    "headline": "Aktualności",
+    "prev": "Poprzednia wiadomość",
+    "next": "Następna wiadomość"
+  }
+}
