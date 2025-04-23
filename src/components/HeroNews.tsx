@@ -17,7 +17,7 @@ const HeroNews = async () => {
 
   return (
     <section
-      className="absolute flex flex-col justify-center bottom-20 w-full md:w-3/5 bg-red-600/80 h-auto md:right-0"
+      className="absolute flex flex-col justify-center bottom-20 w-full md:w-3/5 bg-red-800/[45%] h-auto md:right-0"
       aria-labelledby="hero-news-title"
     >
       <h2 id="hero-news-title" className='text-white mt-2 ml-6'>
