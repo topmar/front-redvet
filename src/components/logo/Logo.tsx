@@ -7,25 +7,20 @@ interface LogoProps {
   className?: string
   isLink?: boolean
   isColor?: boolean
+  footer?: boolean
 }
 
-const Logo = ({ className = '', isLink = false, isColor = false }: LogoProps) => {
+const Logo = ({ className = '', isLink = false, isColor = false, footer = false }: LogoProps) => {
   const t = useTranslations('Logo')
-  const logoImage = (
+  const content = isLink ? (
+    <Link href="/" aria-label={t('aria-link-homepage')}>
+      <LogoSVG className={clsx('h-[70%] w-auto mt-[5%]', className)} isColor={isColor} />
+    </Link>
+  ) : (
     <LogoSVG className={clsx('h-[70%] w-auto mt-[5%]', className)} isColor={isColor} />
   )
 
-  return (
-    <div className="h-full">
-      {isLink ? (
-        <Link href={'/'} aria-label={t('aria-link-homepage')}>
-          {logoImage}
-        </Link>
-      ) : (
-        logoImage
-      )}
-    </div>
-  )
+  return footer ? content : <div className="h-full">{content}</div>
 }
 
 export default Logo

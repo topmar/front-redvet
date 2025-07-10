@@ -51,7 +51,7 @@ export default function ContactUs() {
 
   return (
     <section className="bg-red-900/[95%]">
-      <div className="max-w-5xl mx-auto py-12 px-4">
+      <div className="max-w-7xl mx-auto py-12 px-4">
         <h2 className="text-2xl font-semibold mb-6 text-left text-white">{t('title')}</h2>
         <form onSubmit={form.handleSubmit(onSubmit)}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -30,7 +30,8 @@
     @apply font-header;
   }
   h1 {
-    @apply text-5xl;
+    font-size: clamp(1.875rem, 5vw, 3.2rem);
+    /* font-size: clamp(1.29rem, 5vw, 3.2rem); */
   }
   h2 {
     @apply text-2xl;

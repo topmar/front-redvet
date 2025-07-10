@@ -1,11 +1,9 @@
-import { ContactFormValues } from "@/types/contact"
-import { ENDPOINTS, ERROR_MESSAGES } from "./constants"
+import { ContactFormValues } from '@/types/contact'
+import { ENDPOINTS, ERROR_MESSAGES } from './constants'
 const CACHE_TTL = Number(process.env.CACHE_TTL_SECONDS) || 604800
 
 export const fetchContact = async () => {
-  const res = await fetch(ENDPOINTS.CONTACT, {
-    next: { revalidate: CACHE_TTL }
-  })
+  const res = await fetch(ENDPOINTS.CONTACT, { next: { revalidate: CACHE_TTL } })
   if (!res.ok) {
     throw new Error(ERROR_MESSAGES.FETCH_CONTACT)
   }
@@ -24,18 +22,14 @@ export const fetchOpeningTime = async (locale: string) => {
   return res.json()
 }
 export const fetchGoogleRating = async () => {
-  const res = await fetch(ENDPOINTS.GOOGLE_RATING, {
-    next: { revalidate: CACHE_TTL }
-  })
+  const res = await fetch(ENDPOINTS.GOOGLE_RATING, { next: { revalidate: CACHE_TTL } })
   if (!res.ok) {
     throw new Error(ERROR_MESSAGES.FETCH_GOOGLE_RATING)
   }
   return res.json()
 }
 export const fetchGoogleReviews = async () => {
-  const res = await fetch(ENDPOINTS.GOOGLE_REVIEWS, {
-    next: { revalidate: CACHE_TTL }
-  })
+  const res = await fetch(ENDPOINTS.GOOGLE_REVIEWS, { next: { revalidate: CACHE_TTL } })
   if (!res.ok) {
     throw new Error(ERROR_MESSAGES.FETCH_GOOGLE_REVIEWS)
   }

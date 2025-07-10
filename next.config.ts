@@ -3,8 +3,8 @@ import createNextIntlPlugin from 'next-intl/plugin'
 
 const nextConfig: NextConfig = {
   /* config options here */
-  allowedDevOrigins: ['home.loc'],
-  productionBrowserSourceMaps: true,
+  allowedDevOrigins: ['app.redvet.se'],
+  output: 'standalone'
 }
 
 const withNextIntl = createNextIntlPlugin({

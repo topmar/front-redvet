@@ -48,10 +48,11 @@
     "link": "UMÓW WIZYTĘ"
   },
   "OpeningTime": {
-    "title": "Godziny otwarcia"
+    "title": "Godziny otwarcia",
+    "expand": "Rozwiń szczegóły"
   },
   "ContactUs": {
-    "title": "Kontakt",
+    "title": "Masz pytania lub potrzebujesz pomocy? Skontaktuj się z nami",
     "Owner-label": "Imię właściciela",
     "Owner-placeholder": "Wpisz imię właściciela",
     "Animal-label": "Imię zwierzęcia",

@@ -1,6 +1,6 @@
 import { Montserrat, Work_Sans } from 'next/font/google'
 import './globals.css'
-import { Locale, NextIntlClientProvider } from 'next-intl'
+import { Locale, NextIntlClientProvider, hasLocale } from 'next-intl'
 import { ReactNode } from 'react'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
@@ -39,6 +39,10 @@ export async function generateMetadata(props: Omit<Props, 'children'>) {
 
 export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params
+  if (!hasLocale(routing.locales, locale)) {
+    // notFound()
+    console.log('not found')
+  }
   setRequestLocale(locale)
   return (
     <html lang={locale}>

@@ -6,7 +6,7 @@ import Link from 'next/link'
 const HeroServices = async () => {
   const t = await getTranslations('HeroServices')
   return (
-    <section className="flex flex-col h-90 md:flex-row md:h-60 w-full gap-[1]">
+    <section className="flex flex-col h-90 md:flex-row md:h-60 w-full gap-[1] mt-[1]">
       <div className="relative flex-1">
         <Image
           src="/vaccination.jpg"

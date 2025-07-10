@@ -55,7 +55,8 @@ const CarouselNews = ({ children, labels, ...options }: Props) => {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="overflow-hidden w-full max-w-200 center h-40" ref={emblaRef}>
+      {/* <div className="overflow-hidden w-full max-w-200 center h-40" ref={emblaRef}> */}
+      <div className="overflow-hidden w-full max-w-200 center" ref={emblaRef}>
         <div className="flex gap-4 h-full">{children}</div>
       </div>
 

@@ -48,10 +48,11 @@
     "link": "BOKA TID"
   },
   "OpeningTime": {
-    "title": "Öppettider"
+    "title": "Öppettider",
+    "expand": "Visa detaljer"
   },
   "ContactUs": {
-    "title": "Kontakta oss",
+    "title": "Har du frågor eller behöver hjälp? Kontakta oss",
     "Owner-label": "Ägarens namn",
     "Owner-placeholder": "Ange ägarens namn",
     "Animal-label": "Djurens namn",
