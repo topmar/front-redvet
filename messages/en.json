@@ -19,7 +19,7 @@
   },
   "HeroBanner": {
     "title-row1": "VETERINARY CARE WITH LOVE",
-    "title-row2": "Mobile veterinary services without leaving home",
+    "title-row2": "Veterinary services at your home",
     "button-book-appointment": "Book home visit"
   },
   "HeroServices": {
@@ -34,14 +34,14 @@
     "end-of-life": {
       "text": "END OF LIFE CARE",
       "aria-label": "Read more about end of life care"
-    }
+    },
+    "read-more": "Read more →"
   },
   "HeroAbout": {
     "title": "WELCOME TO REDVET DJURKLINIK",
     "subtitle": "Call us at <link>{tel}</link>",
     "description": "At RedVet, we provide high-quality veterinary care with a focus on compassion and professionalism. Our experienced team is dedicated to ensuring the health and well-being of your pets, offering a wide range of services to meet their needs.",
-    "link-text": "More about us",
-    "link": "/about"
+    "link-text": "More about us"
   },
   "HeroBooking": {
     "title": "SCHEDULE YOUR NEXT VISIT NOW",
@@ -71,7 +71,10 @@
     "Error-message-too-short": "Message is too short",
     "Error-message-too-long": "Message is too long",
     "Send-success": "Form submitted successfully",
-    "Error-send": "Error sending the form"
+    "Error-send": "Error sending the form",
+    "consent-message": "To use this form, you must accept essential cookies. We use Google reCAPTCHA for spam protection. If you need more information, please read <policy>here</policy> or accept to continue.",
+    "consent-button": "Accept essential cookies",
+    "recaptcha": "This site is protected by reCAPTCHA and the Google <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> apply."
   },
   "FooterInfo": {
     "facebook-title": "Visit us on Facebook",
@@ -96,6 +99,11 @@
     "headline": "News",
     "prev": "Previous news item",
     "next": "Next news item"
+  },
+  "CookieDrawer": {
+    "title": "This website uses cookies to ensure you get the best experience on our website. By using our site, you acknowledge that you have read and understood our Cookie Policy.",
+    "accept-button": "Accept All Cookies",
+    "settings-button": "Cookies Settings"
   },
   "privacyPolicy": {
     "title": "Privacy Policy – RedVet Djurklinik",
@@ -280,5 +288,15 @@
       "title": "Questions?",
       "content": "Contact us at: {emailLink}"
     }
+  },
+  "CookieManagement": {
+    "title": "Zarządzanie zgodami",
+    "description": "Tutaj możesz dostosować swoje preferencje dotyczące plików cookie.",
+    "required-title": "Niezbędne pliki cookie",
+    "required-description": "Te pliki cookie są wymagane do działania strony i nie mogą być wyłączone.",
+    "recaptcha-title": "Ochrona reCAPTCHA",
+    "recaptcha-description": "Chroni formularze przed spamem i botami.",
+    "analytics-title": "Analityczne pliki cookie",
+    "analytics-description": "Pomagają nam zrozumieć, jak użytkownicy korzystają ze strony."
   }
 }

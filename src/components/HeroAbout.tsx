@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import { fetchContact } from '@/lib/actions'
-import Link from 'next/link'
 import { getTranslations } from 'next-intl/server'
+import { Link } from '@/i18n/navigation'
+import { LINKS } from '@/lib/constants'
 
 const HeroAbout = async () => {
   const t = await getTranslations('HeroAbout')
@@ -26,7 +27,8 @@ const HeroAbout = async () => {
             })}
           </h3>
           <Link
-            href={t('link')}
+            // href={t('link')}
+            href={LINKS.ABOUT}
             className="
             inline-flex items-center justify-center whitespace-nowrap transition-all shrink-0
             outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[2px]

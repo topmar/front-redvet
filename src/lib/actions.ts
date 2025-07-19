@@ -49,12 +49,20 @@ export const fetchNews = async (locale: string) => {
 }
 
 //client request
-export const sendContactForm = async (values: ContactFormValues) => {
+export const sendContactForm = async (values: ContactFormValues, token: string) => {
   const res = await fetch(ENDPOINTS.CONTACT_SEND, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(values)
+    body: JSON.stringify({ ...values, token })
   })
 
   if (!res.ok) throw new Error(ERROR_MESSAGES.FETCH_CONTACT_SEND)
+}
+
+export const sendCounter = (ip:string, path:string) => {
+  fetch(ENDPOINTS.COUNTER, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ ip, path })
+  }).catch((err) => {})
 }

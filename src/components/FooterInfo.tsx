@@ -1,47 +1,55 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import InstagramLogoSVG from './InstagramLogoSVG'
-import Logo from './logo/Logo'
 import ContactFooter from './ContactFooter'
 import GoogleRating from './GoogleRating'
-import { getTranslations } from 'next-intl/server'
+import { getMessages, getTranslations } from 'next-intl/server'
 import LogoSVG from './logo/LogoSVG'
+import { Link } from '@/i18n/navigation'
 
 const FooterInfo = async () => {
   const t = await getTranslations('FooterInfo')
+  const t2 = await getTranslations('Navigation')
+  const messages = await getMessages()
+  const links = Object.keys(messages.Navigation)
   return (
     <div className="max-w-7xl mx-auto px-4 my-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-        <div className='flex flex-col items-center '>
-          <LogoSVG className='w-45 -translate-y-6'/>
+        <div className="flex flex-col items-center ">
+          <LogoSVG className="w-45 -translate-y-6 -translate-x-2" />
           <ContactFooter className="mx-auto" />
         </div>
         <div className="flex flex-col items-center">
           <div className="flex gap-x-8">
-            <Link
+            <a
               href="https://www.facebook.com/redvetdjurklinik"
               title={t('facebook-title')}
               aria-label={t('facebook-link')}
             >
               <Image src="/f_logo_black.png" alt="" width={40} height={40} aria-hidden="true" />
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://www.instagram.com/redvetdjurklinik/"
               title={t('instagram-title')}
               aria-label={t('instagram-link')}
             >
               <InstagramLogoSVG />
-            </Link>
+            </a>
           </div>
           <GoogleRating />
         </div>
-        {/* <ContactFooter className="mx-auto md:mr-0" /> */}
-        {/* <div className='flex flex-col items-center md:items-end w-max mx-auto md:mx-0 gap-1'> */}
-        <div className="flex flex-col items-center">
-          <a href="#">O nas</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-          <a href="#">booka</a>
+        <div className="">
+          <ul className="flex flex-col items-center text-xl font-semibold gap-2">
+            {links.map((key) => (
+              <li key={key}>
+                <Link
+                  href={`/${key}`}
+                  className="whitespace-nowrap hover:underline"
+                >
+                  {t2(key)}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

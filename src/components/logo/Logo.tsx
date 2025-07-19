@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl'
-import Link from 'next/link'
 import LogoSVG from './LogoSVG'
 import clsx from 'clsx'
+import { Link } from '@/i18n/navigation'
 
 interface LogoProps {
   className?: string

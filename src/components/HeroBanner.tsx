@@ -1,7 +1,7 @@
+import { Link } from '@/i18n/navigation'
 import { LINKS } from '@/lib/constants'
 import { getTranslations } from 'next-intl/server'
 import Image from 'next/image'
-import Link from 'next/link'
 
 const HeroBanner = async () => {
   const t = await getTranslations('HeroBanner')

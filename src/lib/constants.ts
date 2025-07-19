@@ -6,8 +6,9 @@ export const ENDPOINTS = {
   OPENING_TIME: `${BACKEND_URL}/time`,
   GOOGLE_RATING: `${BACKEND_URL}/rating`,
   GOOGLE_REVIEWS: `${BACKEND_URL}/opinions`,
-  CONTACT_SEND: `${CLIENT_URL}/formtest`,
-  NEWS: `${BACKEND_URL}/news`
+  CONTACT_SEND: `${CLIENT_URL}/form`,
+  NEWS: `${BACKEND_URL}/news`,
+  COUNTER: `${BACKEND_URL}/counter`
 }
 export const ERROR_MESSAGES = {
   FETCH_CONTACT: 'Failed to fetch contact',
@@ -21,5 +22,8 @@ export const LINKS = {
   BOOK: '/book',
   SERVICES_VACCINATIONS: '/services/vaccinations',
   SERVICES_VETERINARY_CARE_AT_HOME: '/services/care-at-home',
-  SERVICES_END_OF_LIFE_CARE: '/services/end-of-life'
-}
+  SERVICES_END_OF_LIFE_CARE: '/services/end-of-life',
+  ABOUT: '/about',
+  PRIVACY_POLICY: '/privacy-policy',
+  TERMS_OF_SERVICE: '/terms-of-service',
+} as const

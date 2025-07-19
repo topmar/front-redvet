@@ -10,7 +10,7 @@ import OpeningTime from '@/components/OpeningTime'
 export default function Home() {
 
   return (
-    <main>
+    <>
       <HeroBanner />
       <HeroNews />
       <HeroServices />
@@ -19,6 +19,6 @@ export default function Home() {
       <HeroReviews />
       <OpeningTime />
       <ContactUs />
-    </main>
+    </>
   )
 }
