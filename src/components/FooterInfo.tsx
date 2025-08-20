@@ -5,12 +5,11 @@ import GoogleRating from './GoogleRating'
 import { getMessages, getTranslations } from 'next-intl/server'
 import LogoSVG from './logo/LogoSVG'
 import { Link } from '@/i18n/navigation'
+import { NAV_ITEMS, NavPath } from '@/lib/navigation'
 
 const FooterInfo = async () => {
   const t = await getTranslations('FooterInfo')
   const t2 = await getTranslations('Navigation')
-  const messages = await getMessages()
-  const links = Object.keys(messages.Navigation)
   return (
     <div className="max-w-7xl mx-auto px-4 my-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -39,13 +38,10 @@ const FooterInfo = async () => {
         </div>
         <div className="">
           <ul className="flex flex-col items-center text-xl font-semibold gap-2">
-            {links.map((key) => (
-              <li key={key}>
-                <Link
-                  href={`/${key}`}
-                  className="whitespace-nowrap hover:underline"
-                >
-                  {t2(key)}
+            {NAV_ITEMS.map((item) => (
+              <li key={item.path}>
+                <Link href={item.path} className="whitespace-nowrap hover:underline">
+                  {t2(item.path.replace('/', ''))}
                 </Link>
               </li>
             ))}

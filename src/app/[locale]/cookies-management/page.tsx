@@ -7,11 +7,7 @@ import { useState, useEffect } from 'react'
 
 export default function CookieManagementPage() {
   const router = useRouter()
-  const {
-    setAllConsent,
-    disableAllConsent,
-    saveConsent
-  } = useCookieConsentContext()
+  const { setAllConsent, disableAllConsent, saveConsent } = useCookieConsentContext()
   const t = useTranslations('CookieManagement')
   const { isRecaptchaAllowed, isAnalyticsAllowed, updatedAt } = useCookieConsentContext()
 
@@ -20,18 +16,17 @@ export default function CookieManagementPage() {
     setAnalyticsChecked(isAnalyticsAllowed())
   }, [isRecaptchaAllowed, isAnalyticsAllowed, updatedAt])
 
-
   const [recaptchaChecked, setRecaptchaChecked] = useState(false)
   const [analyticsChecked, setAnalyticsChecked] = useState(false)
 
   const handleAcceptAll = () => {
     setAllConsent()
   }
-  
+
   const handleRejectAll = () => {
     disableAllConsent()
   }
-  
+
   const handleSave = () => {
     const before = isRecaptchaAllowed()
     saveConsent({ recaptcha: recaptchaChecked, analytics: analyticsChecked })
@@ -46,13 +41,6 @@ export default function CookieManagementPage() {
       router.push('/')
     }
   }
-  // const handleSave = () => {
-  //   saveConsent({
-  //     recaptcha: recaptchaChecked,
-  //     analytics: analyticsChecked
-  //   })
-  //   router.back()
-  //  }
 
   return (
     <div className="max-w-3xl mx-auto p-6 space-y-8 pt-50">

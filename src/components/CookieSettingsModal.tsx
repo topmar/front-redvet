@@ -81,7 +81,7 @@ const CookieSettingsModal = () => {
             className="px-4 py-2 bg-green-600 text-white rounded"
             onClick={() => {
               setAllConsent()
-              document.getElementById('cookie-settings-modal')?.close()
+              (document.getElementById('cookie-settings-modal') as HTMLDialogElement | null)?.close()
             }}
           >
             Acceptera alla

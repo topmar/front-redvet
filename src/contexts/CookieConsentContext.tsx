@@ -112,3 +112,4 @@ export const useCookieConsentContext = () => {
     throw new Error('useCookieConsentContext must be used within a CookieConsentProvider')
   return context
 }
+

@@ -1,4 +1,5 @@
 import { Link } from '@/i18n/navigation'
+import { NavPath } from '@/lib/navigation'
 
 type NavLink = {
   label: string
@@ -16,7 +17,7 @@ export const Nav = ({ links }: NavProps) => {
         {links.map(({ label, href }) => (
           <li key={href}>
             <Link
-              href={href as const}
+              href={href as NavPath}
               className="
               inline-flex items-center justify-center gap-2 whitespace-nowrap shrink-0 h-10 px-6
               text-[1.125rem] font-medium transition-all

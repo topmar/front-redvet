@@ -1,6 +1,6 @@
 import { Montserrat, Work_Sans } from 'next/font/google'
 import './globals.css'
-import { Locale, NextIntlClientProvider, hasLocale } from 'next-intl'
+import { Locale, NextIntlClientProvider } from 'next-intl'
 import { ReactNode } from 'react'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { routing } from '@/i18n/routing'

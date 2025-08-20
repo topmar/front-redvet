@@ -1,4 +1,5 @@
 import { Link } from '@/i18n/navigation'
+import { NavPath } from '@/lib/navigation'
 import { Stethoscope, DoorOpen, CalendarCheck, BadgeDollarSign, Lightbulb } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
@@ -27,7 +28,7 @@ const HamburgerMenu = ({ isOpen, links }: HamburgerMenuProps) => (
       return (
         <Link
           key={href}
-          href={href}
+          href={href as NavPath}
           className="flex items-center gap-2 py-2 px-4 group hover:bg-gray-100 transition-colors"
         >
           <Icon className="w-4 h-4 mr-4 text-gray-700 group-hover:text-black" />

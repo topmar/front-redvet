@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react'
 const CookieDrawer = () => {
   const [visible, setVisible] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  // const [isModalOpen, setIsModalOpen] = useState(false)
   const t = useTranslations('CookieDrawer')
   const { hasConsent, setAllConsent, updatedAt } = useCookieConsentContext()
 

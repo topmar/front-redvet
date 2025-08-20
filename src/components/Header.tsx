@@ -4,15 +4,15 @@ import Logo from './logo/Logo'
 import { Nav } from './Nav'
 import LocaleSwitcher from './localeswitcher/LocaleSwitcher'
 import MobileMenuWrapper from './hamburger-menu/MobileMenuWrapper'
-import { useMessages, useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl'
+import { NAV_ITEMS } from '@/lib/navigation'
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false)
   const t = useTranslations('Navigation')
-  const keys = Object.keys(useMessages().Navigation)
-  const links = keys.map((key) => ({
-    label: t(`${key}`),
-    href: `/${key}`
+  const links = NAV_ITEMS.map((item) => ({
+    label: t(item.path.replace('/', '')),
+    href: item.path
   }))
 
   useEffect(() => {

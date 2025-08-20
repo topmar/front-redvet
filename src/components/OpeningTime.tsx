@@ -2,7 +2,7 @@ import { fetchOpeningTime } from '@/lib/actions'
 import { getLocale, getTranslations } from 'next-intl/server'
 import Separator from './Separator'
 
-interface OpeningTime {
+interface OpeningTimeEntry {
   openingTimeId: number
   day: string
   time: string
@@ -14,7 +14,7 @@ const OpeningTime = async () => {
   const openingTimes = await fetchOpeningTime(await getLocale())
   const days = openingTimes.slice(0, 7)
   const lunch = openingTimes[7]
-  const activeDays = days.filter((day: OpeningTime) => day.active)
+  const activeDays = days.filter((day: OpeningTimeEntry) => day.active)
 
   return (
     <section className="flex flex-col max-w-7xl mx-auto py-6 px-4" aria-labelledby="opening-time">
