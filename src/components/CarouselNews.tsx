@@ -55,7 +55,8 @@ const CarouselNews = ({ children, labels, ...options }: Props) => {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="overflow-hidden w-full max-w-200 center h-40" ref={emblaRef}>
+      {/* <div className="overflow-hidden w-full max-w-200 center h-40" ref={emblaRef}> */}
+      <div className="overflow-hidden w-full max-w-200 center" ref={emblaRef}>
         <div className="flex gap-4 h-full">{children}</div>
       </div>
 
@@ -65,7 +66,7 @@ const CarouselNews = ({ children, labels, ...options }: Props) => {
             emblaApi?.scrollPrev()
             resetAutoplay()
           }}
-          className="p-0 m-0 bg-transparent border-none text-white/80 hover:text-white"
+          className="p-0 m-0 bg-transparent border-none text-white/80 hover:text-white cursor-pointer"
           aria-label={labels.prev}
         >
           <ChevronLeft size={32} />
@@ -76,7 +77,7 @@ const CarouselNews = ({ children, labels, ...options }: Props) => {
             emblaApi?.scrollNext()
             resetAutoplay()
           }}
-          className="p-0 m-0 bg-transparent border-none text-white/80 hover:text-white"
+          className="p-0 m-0 bg-transparent border-none text-white/80 hover:text-white cursor-pointer"
           aria-label={labels.next}
         >
           <ChevronRight size={32} />

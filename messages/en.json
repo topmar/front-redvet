@@ -18,8 +18,8 @@
     "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
   },
   "HeroBanner": {
-    "title-row1": "VETERINARY CARE WITH LOVE",
-    "title-row2": "Mobile veterinary services without leaving home",
+    "title-row1": "VETERINARY CARE WITH&nbsp;LOVE",
+    "title-row2": "Veterinary services at your home",
     "button-book-appointment": "Book home visit"
   },
   "HeroServices": {
@@ -34,24 +34,25 @@
     "end-of-life": {
       "text": "END OF LIFE CARE",
       "aria-label": "Read more about end of life care"
-    }
+    },
+    "read-more": "Read more →"
   },
   "HeroAbout": {
     "title": "WELCOME TO REDVET DJURKLINIK",
     "subtitle": "Call us at <link>{tel}</link>",
     "description": "At RedVet, we provide high-quality veterinary care with a focus on compassion and professionalism. Our experienced team is dedicated to ensuring the health and well-being of your pets, offering a wide range of services to meet their needs.",
-    "link-text": "More about us",
-    "link": "/about"
+    "link-text": "More about us"
   },
   "HeroBooking": {
     "title": "SCHEDULE YOUR NEXT VISIT NOW",
     "link": "BOOK APPOINTMENT"
   },
   "OpeningTime": {
-    "title": "Opening time"
+    "title": "Opening time",
+    "expand": "Expand details"
   },
   "ContactUs": {
-    "title": "Contact Us",
+    "title": "Have questions or need help? Get in touch with us",
     "Owner-label": "Owner's Name",
     "Owner-placeholder": "Enter owner's name",
     "Animal-label": "Animal's Name",
@@ -70,7 +71,10 @@
     "Error-message-too-short": "Message is too short",
     "Error-message-too-long": "Message is too long",
     "Send-success": "Form submitted successfully",
-    "Error-send": "Error sending the form"
+    "Error-send": "Error sending the form",
+    "consent-message": "To use this form, you must accept essential cookies. We use Google reCAPTCHA for spam protection. If you need more information, please read <policy>Privacy Policy</policy> or accept to continue.",
+    "consent-button": "Accept essential cookies",
+    "recaptcha": "This site is protected by reCAPTCHA and the Google <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> apply."
   },
   "FooterInfo": {
     "facebook-title": "Visit us on Facebook",
@@ -95,5 +99,245 @@
     "headline": "News",
     "prev": "Previous news item",
     "next": "Next news item"
+  },
+  "FooterCopyright": {
+    "privacy-policy": "Privacy Policy",
+    "terms-of-service": "Terms of Service",
+    "cookies-management": "Cookies management"
+  },
+  "CookieDrawer": {
+    "title": "This website uses cookies to ensure site functionality, protect forms, and analyze traffic. By clicking \u201EAccept\u00A0all\u00A0cookies\u201D, you consent to their use. You can always change your preferences in Cookie\u00A0settings. See\u00A0our\u00A0<cookiePolicy>Cookie\u00A0Policy</cookiePolicy>.",
+    "accept-button": "Accept all cookies",
+    "settings-button": "Cookie settings"
+  },
+  "CookieSettings": {
+    "title": "Cookie Settings",
+    "description": "You can customize your cookie preferences here. Required cookies are essential for the website to function correctly, while optional cookies can be enabled or disabled according to your choice.",
+    "required-title": "Necessary Cookies",
+    "required-description": "These cookies are necessary for the website to function and cannot be disabled.",
+    "recaptcha-title": "reCAPTCHA Protection",
+    "recaptcha-description": "Protects forms from spam and bots using Google reCAPTCHA cookies. Enabling these cookies allows you to contact us via our forms.",
+    "analytics-title": "Analytics Cookies",
+    "analytics-description": "These cookies, set by Google Analytics, collect anonymous information about how users interact with our website. They help us improve site performance and user experience.",
+    "accept-button": "Accept all",
+    "decline-button": "Decline all",
+    "save-button": "Save settings"
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: September 1, 2025",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": [
+          "This Cookie Policy explains how RedVet AB uses cookies and similar technologies on our website. Cookies are small text files stored on your device that help us provide essential website functions, remember your preferences, analyze site usage, and protect our services from abuse.",
+          "By continuing to use our website, you consent to the use of cookies as described in this policy."
+        ]
+      },
+      {
+        "title": "Types of Cookies We Use",
+          "items": [
+            "<b>Necessary Cookies</b>"
+          ]
+      }
+    ],
+    "footer": {
+      "title": "Still have questions?",
+      "content": "Contact us anytime at: {emailLink}"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy – RedVet Djurklinik",
+    "lastUpdated": "Last updated: July 10, 2025",
+    "contact": "Contact: {emailLink}",
+    "sections": [
+      {
+        "title": "Overview",
+        "content": [
+          "This Privacy Policy explains how RedVet Djurklinik (“we”, “us”, “our”) collects, uses, stores, and protects your personal data when you use our website and services. “Personal data” means any information that can directly or indirectly identify you as an individual.",
+          "We are committed to protecting your privacy and complying with the General Data Protection Regulation (GDPR) and other applicable data protection laws."
+        ]
+      },
+      {
+        "title": "Who We Are",
+        "content": [
+          "<b>Data Controller:</b>",
+          "RedVet Djurklinik",
+          "Sweden",
+          "{emailLink}",
+          "We are responsible for determining the purposes and means of processing your personal data."
+        ]
+      },
+      {
+        "title": "What Data We Collect",
+        "content": ["We may collect the following categories of personal data:"],
+        "items": [
+          "<b>Directly provided data:</b> name, email, phone number, messages submitted via contact forms.",
+          "<b>Technical data:</b> IP address, browser type, device information, cookies.",
+          "<b>Usage data:</b> interactions with our website and services."
+        ]
+      },
+      {
+        "title": "Why We Collect Your Data",
+        "content": ["We collect data for the following purposes:"],
+        "items": [
+          "To respond to your inquiries and provide veterinary home visit services",
+          "To communicate important information regarding appointments",
+          "To improve our website and services",
+          "To comply with legal obligations"
+        ]
+      },
+      {
+        "title": "Legal Grounds for Processing",
+        "content": [
+          "We process your personal data based on one or more of the following legal grounds:"
+        ],
+        "items": [
+          "Your <b>consent</b> (e.g. newsletter signup)",
+          "Performance of a <b>contract</b> (e.g. appointment booking)",
+          "Our <b>legitimate interest</b> (e.g. improving services)",
+          "<b>Legal obligation</b> (e.g. compliance with health regulations)"
+        ]
+      },
+      {
+        "title": "Your Rights Under GDPR",
+        "content": ["You have the right to:"],
+        "items": [
+          "Access your personal data",
+          "Rectify or erase your data (“right to be forgotten”)",
+          "Restrict or object to processing",
+          "Data portability (receive your data in machine-readable format)",
+          "Withdraw your consent at any time",
+          "Lodge a complaint with a data protection authority"
+        ],
+        "footer": "To exercise these rights, please contact: kontakt@redvetdjurklinik.se"
+      },
+      {
+        "title": "Cookies & Analytics",
+        "content": [
+          "We use cookies to improve your experience and analyze traffic through Google Analytics and similar tools. You can manage your cookie preferences in your browser settings.",
+          "For more details, please see our Cookie Policy."
+        ]
+      },
+      {
+        "title": "Data Security",
+        "content": [
+          "We implement appropriate technical and organizational measures to protect your data against unauthorized access, loss, or misuse."
+        ]
+      },
+      {
+        "title": "Data Retention",
+        "content": [
+          "We keep your personal data only as long as necessary for the purposes described or required by law."
+        ]
+      },
+      {
+        "title": "Third-Party Services",
+        "content": [
+          "We may share your data with trusted third-party providers (e.g. email service, analytics) under strict agreements.",
+          "Some data may be transferred outside the EU/EEA with adequate safeguards."
+        ]
+      },
+      {
+        "title": "Embedded Content",
+        "content": [
+          "Our website may include embedded content such as videos or fonts from third parties which may collect limited data (e.g. IP address). Please review their privacy policies."
+        ],
+        "items": ["Google Privacy Policy", "YouTube Privacy Policy"]
+      },
+      {
+        "title": "Changes to This Policy",
+        "content": [
+          "We may update this Privacy Policy occasionally. The latest version will always be available on our website. Continued use of our services indicates your acceptance of the changes."
+        ]
+      }
+    ],
+    "footer": {
+      "title": "Still have questions?",
+      "content": "Contact us anytime at: {emailLink}"
+    }
+  },
+  "termsOfService": {
+    "title": "Terms of Service – RedVet Djurklinik",
+    "lastUpdated": "Last updated: July 10, 2025",
+    "contact": "Contact: {emailLink}",
+    "sections": [
+      {
+        "title": "Acceptance of Terms",
+        "content": [
+          "By accessing or using the RedVet Djurklinik website and services, you agree to be bound by these Terms of Service and our Privacy Policy."
+        ]
+      },
+      {
+        "title": "Services Description",
+        "content": [
+          "RedVet Djurklinik provides veterinary home visit services. We aim to deliver professional and timely care to your pets at your preferred location."
+        ]
+      },
+      {
+        "title": "User Responsibilities",
+        "content": [
+          "You agree to provide accurate information when booking appointments or contacting us.",
+          "You are responsible for ensuring pets are available at the agreed time and location."
+        ]
+      },
+      {
+        "title": "Appointment Booking and Cancellation",
+        "content": [
+          "Appointments can be booked via the contact form or phone.",
+          "Please inform us as soon as possible if you need to cancel or reschedule an appointment."
+        ]
+      },
+      {
+        "title": "Payments and Fees",
+        "content": [
+          "Services fees will be communicated prior to the visit.",
+          "Payments are to be made according to the agreed terms, either on-site or via invoicing."
+        ]
+      },
+      {
+        "title": "Limitation of Liability",
+        "content": [
+          "RedVet Djurklinik is not liable for any indirect, incidental, or consequential damages arising from the use of our services.",
+          "We provide veterinary care based on the information and access available at the time of visit."
+        ]
+      },
+      {
+        "title": "Intellectual Property",
+        "content": [
+          "All content on the website, including text, images, and logos, are owned by RedVet Djurklinik or licensed to us and are protected by intellectual property laws."
+        ]
+      },
+      {
+        "title": "Termination",
+        "content": [
+          "We reserve the right to terminate or restrict access to our services at any time without prior notice for violations of these Terms."
+        ]
+      },
+      {
+        "title": "Changes to Terms",
+        "content": [
+          "We may update these Terms of Service occasionally. Continued use of the website and services constitutes acceptance of the updated Terms."
+        ]
+      },
+      {
+        "title": "Governing Law",
+        "content": ["These Terms are governed by the laws of Sweden."]
+      }
+    ],
+    "footer": {
+      "title": "Questions?",
+      "content": "Contact us at: {emailLink}"
+    }
+  },
+  "CookieManagement": {
+    "title": "Zarządzanie zgodami",
+    "description": "Tutaj możesz dostosować swoje preferencje dotyczące plików cookie.",
+    "required-title": "Niezbędne pliki cookie",
+    "required-description": "Te pliki cookie są wymagane do działania strony i nie mogą być wyłączone.",
+    "recaptcha-title": "Ochrona reCAPTCHA",
+    "recaptcha-description": "Chroni formularze przed spamem i botami.",
+    "analytics-title": "Analityczne pliki cookie",
+    "analytics-description": "Pomagają nam zrozumieć, jak użytkownicy korzystają ze strony."
   }
 }

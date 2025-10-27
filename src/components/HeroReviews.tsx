@@ -16,9 +16,9 @@ export const HeroReviews = async () => {
   const reviews = await fetchGoogleReviews()
 
   return (
-    <section className="bg-gray-400 py-10">
+    <section className="bg-gray-400 pt-10 pb-5">
       <header className='max-w-7xl mx-auto px-4'>
-        <h2 className="text-2xl">{t('title')}</h2>
+        <h2 className="text-2xl font-semibold">{t('title')}</h2>
         <h3>{t('description')}</h3>
       </header>
 

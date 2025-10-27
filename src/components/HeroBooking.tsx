@@ -1,5 +1,6 @@
+import { Link } from '@/i18n/navigation'
+import { LINKS } from '@/lib/constants'
 import { getTranslations } from 'next-intl/server'
-import Link from 'next/link'
 
 const HeroBooking = async () => {
   const t = await getTranslations('HeroBooking')
@@ -9,7 +10,7 @@ const HeroBooking = async () => {
         {t('title')}
       </h2>
       <Link
-        href="/book"
+        href={LINKS.BOOK}
         className="
       inline-flex items-center justify-center whitespace-nowrap transition-all shrink-0
       outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[2px]

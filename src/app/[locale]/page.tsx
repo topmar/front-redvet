@@ -1,27 +1,24 @@
+import ContactUs from '@/components/ContactUs'
 import HeroAbout from '@/components/HeroAbout'
 import HeroBanner from '@/components/HeroBanner'
 import HeroBooking from '@/components/HeroBooking'
+import HeroNews from '@/components/HeroNews'
 import { HeroReviews } from '@/components/HeroReviews'
 import HeroServices from '@/components/HeroServices'
-import { Locale } from 'next-intl'
-import { setRequestLocale } from 'next-intl/server'
-import { use } from 'react'
+import OpeningTime from '@/components/OpeningTime'
 
-type Props = {
-  params: Promise<{ locale: Locale }>
-}
-
-export default function Home({ params }: Props) {
-  const { locale } = use(params)
-  setRequestLocale(locale)
+export default function Home() {
 
   return (
-    <main>
+    <>
       <HeroBanner />
+      <HeroNews />
       <HeroServices />
       <HeroAbout />
       <HeroBooking />
       <HeroReviews />
-    </main>
+      <OpeningTime />
+      <ContactUs />
+    </>
   )
 }

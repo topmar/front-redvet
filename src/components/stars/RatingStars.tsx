@@ -26,17 +26,17 @@ const RatingStars = ({ rating, size = 7 }: RatingStarsProps) => {
   return (
     <div className="flex" aria-hidden="true">
       {[...Array(fullStars)].map((_, i) => (
-        <span key={i} aria-hidden="true">
+        <span key={i}>
           <StarFull className={starClass} />
         </span>
       ))}
       {[...Array(halfStar)].map((_, i) => (
-        <span key={i} aria-hidden="true">
+        <span key={i}>
           <StarHalf className={starClass} />
         </span>
       ))}
       {[...Array(emptyStars)].map((_, i) => (
-        <span key={i} aria-hidden="true">
+        <span key={i}>
           <Star className={starClass} />
         </span>
       ))}

@@ -43,7 +43,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }: 
   return (
     <label
       className={clsx(
-        'relative text-gray-500 hidden md:block',
+        'relative text-gray-500 hidden md:block md:w-full md:text-right md:mr-18 lg:w-auto',
         isPending && 'transition-opacity [&:disabled]:opacity-30'
       )}
     >
@@ -52,7 +52,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }: 
         className="
         inline-flex appearance-none
         outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[2px]
-        bg-transparent py-2 pl-2 pr-5"
+        bg-transparent py-2 pl-2 pr-5 cursor-pointer"
         defaultValue={defaultValue}
         disabled={isPending}
         onChange={onSelectChange}

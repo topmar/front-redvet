@@ -12,10 +12,10 @@ const ContactFooter = async ({ className = '' }:ContactFooterProps) => {
   const contact = await fetchContact()
 
   return (
-    <div className={clsx('flex flex-col', className)}>
+    <div className={clsx('flex flex-col gap-2', className)}>
       <a
         href={`mailto:${contact?.email}`}
-        className="flex items-center mt-4 text-xl font-medium"
+        className="flex items-center text-xl font-medium"
         // aria-label={`${t('mail')}${contact?.email}`}
         aria-label={`${t('contact-us')} ${t('by-email')}: ${contact?.email}`}
       >
@@ -24,7 +24,7 @@ const ContactFooter = async ({ className = '' }:ContactFooterProps) => {
       </a>
       <a
         href={`tel:${contact.telephone}`}
-        className="flex items-center mt-2 text-xl font-medium"
+        className="flex items-center text-xl font-medium"
         // aria-label={`${t('phone')} ${contact.telephone}`}
         aria-label={`${t('contact-us')} ${t('by-phone')}: ${contact.telephone}`}
       >
