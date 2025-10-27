@@ -66,7 +66,7 @@ const CarouselNews = ({ children, labels, ...options }: Props) => {
             emblaApi?.scrollPrev()
             resetAutoplay()
           }}
-          className="p-0 m-0 bg-transparent border-none text-white/80 hover:text-white"
+          className="p-0 m-0 bg-transparent border-none text-white/80 hover:text-white cursor-pointer"
           aria-label={labels.prev}
         >
           <ChevronLeft size={32} />
@@ -77,7 +77,7 @@ const CarouselNews = ({ children, labels, ...options }: Props) => {
             emblaApi?.scrollNext()
             resetAutoplay()
           }}
-          className="p-0 m-0 bg-transparent border-none text-white/80 hover:text-white"
+          className="p-0 m-0 bg-transparent border-none text-white/80 hover:text-white cursor-pointer"
           aria-label={labels.next}
         >
           <ChevronRight size={32} />

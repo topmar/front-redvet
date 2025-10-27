@@ -19,7 +19,7 @@ const HeroAbout = async () => {
           <h3 className="text-xl mt-4 text-center max-w-150">
             {t.rich('subtitle', {
               link: (chunks) => (
-                <a href={`tel:${tel.telephone.replace(/\s/g, '')}`} className="underline">
+                <a href={`tel:${tel.telephone.replace(/\s/g, '')}`} className="underline whitespace-nowrap">
                   {chunks}
                 </a>
               ),

@@ -18,7 +18,7 @@
     "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Annat}}"
   },
   "HeroBanner": {
-    "title-row1": "VETERINÄRVÅRD MED KÄRLEK",
+    "title-row1": "VETERINÄRVÅRD MED&nbsp;KÄRLEK",
     "title-row2": "Veterinärtjänster i ditt hem",
     "button-book-appointment": "Boka hembesök"
   },
@@ -34,7 +34,8 @@
     "end-of-life": {
       "text": "AVSLUTNING AV LIVET",
       "aria-label": "Läs mer om stöd vid livets slut"
-    }
+    },
+    "read-more": "Läs mer →"
   },
   "HeroAbout": {
     "title": "VÄLKOMMEN TILL REDVET DJURKLINIK",
@@ -71,7 +72,10 @@
     "Error-message-too-short": "Meddelandet är för kort",
     "Error-message-too-long": "Meddelandet är för långt",
     "Send-success": "Formuläret har skickats",
-    "Error-send": "Fel vid skickande av formuläret"
+    "Error-send": "Fel vid skickande av formuläret",
+    "consent-message": "För att använda detta formulär måste du acceptera nödvändiga cookies. Vi använder Google reCAPTCHA för att skydda mot skräppost. Om du vill ha mer information, läs <policy>Integritetspolicy</policy> eller acceptera för att fortsätta.",
+    "consent-button": "Acceptera nödvändiga cookies",
+    "recaptcha": "Denna webbplats är skyddad av reCAPTCHA och Googles <privacy>Integritetspolicy</privacy> och <terms>Användarvillkor</terms> gäller."
   },
   "FooterInfo": {
     "facebook-title": "Besök oss på Facebook",
@@ -96,5 +100,222 @@
     "headline": "Nyheter",
     "prev": "Föregående nyhet",
     "next": "Nästa nyhet"
+  },
+  "FooterCopyright": {
+    "privacy-policy": "Integritetspolicy",
+    "terms-of-service": "Användarvillkor",
+    "cookies-management": "Hantering av cookies"
+  },
+  "CookieDrawer": {
+    "title": "Denna webbplats använder cookies för att säkerställa webbplatsens funktion, skydda formulär och analysera trafik. Genom att klicka \u201EAcceptera\u00A0alla\u00A0cookies\u201D samtycker du till deras användning. Du kan alltid ändra dina inställningar i Cookieinställningar. Se\u00A0vår\u00A0<cookiePolicy>Cookie\u00A0Policy</cookiePolicy>.",
+    "accept-button": "Acceptera alla cookies",
+    "settings-button": "Cookieinställningar"
+  },
+  "CookieSettings": {
+    "title": "Cookie-inställningar",
+    "description": "Du kan anpassa dina cookie-inställningar här. Nödvändiga cookies är avgörande för att webbplatsen ska fungera korrekt, medan valfria cookies kan aktiveras eller inaktiveras enligt ditt val.",
+    "required-title": "Nödvändiga Cookies",
+    "required-description": "Dessa cookies är nödvändiga för att webbplatsen ska fungera och kan inte inaktiveras.",
+    "recaptcha-title": "reCAPTCHA-skydd",
+    "recaptcha-description": "Skyddar formulär från skräppost och botar med hjälp av Google reCAPTCHA-cookies. Genom att aktivera dessa cookies kan du kontakta oss via våra formulär.",
+    "analytics-title": "Analyscookies",
+    "analytics-description": "Dessa cookies, som sätts av Google Analytics, samlar anonym information om hur användare interagerar med vår webbplats. De hjälper oss att förbättra webbplatsens prestanda och användarupplevelse.",
+    "accept-button": "Acceptera alla",
+    "decline-button": "Avböj alla",
+    "save-button": "Spara inställningar"
+  },
+  "privacyPolicy": {
+    "title": "Integritetspolicy – RedVet Djurklinik",
+    "lastUpdated": "Senast uppdaterad: 10 juli 2025",
+    "contact": "Kontakt: {emailLink}",
+    "sections": [
+      {
+        "title": "Översikt",
+        "content": [
+          "Denna integritetspolicy förklarar hur RedVet Djurklinik (“vi”, “oss”, “vår”) samlar in, använder, lagrar och skyddar dina personuppgifter när du använder vår webbplats och våra tjänster. “Personuppgifter” betyder all information som direkt eller indirekt kan identifiera dig som individ.",
+          "Vi är engagerade i att skydda din integritet och följa den allmänna dataskyddsförordningen (GDPR) samt andra tillämpliga dataskyddslagar."
+        ]
+      },
+      {
+        "title": "Vilka vi är",
+        "content": [
+          "<b>Personuppgiftsansvarig:</b>",
+          "RedVet Djurklinik",
+          "Sverige",
+          "{emailLink}",
+          "Vi är ansvariga för att bestämma syftena och medlen för behandling av dina personuppgifter."
+        ]
+      },
+      {
+        "title": "Vilka uppgifter vi samlar in",
+        "content": ["Vi kan samla in följande kategorier av personuppgifter:"],
+        "items": [
+          "<b>Direkt tillhandahållna uppgifter:</b> namn, e-post, telefonnummer, meddelanden som skickas via kontaktformulär.",
+          "<b>Tekniska uppgifter:</b> IP-adress, webbläsartyp, enhetsinformation, cookies.",
+          "<b>Användningsdata:</b> interaktioner med vår webbplats och tjänster."
+        ]
+      },
+      {
+        "title": "Varför vi samlar in dina uppgifter",
+        "content": ["Vi samlar in uppgifter för följande ändamål:"],
+        "items": [
+          "För att svara på dina förfrågningar och tillhandahålla veterinär hembesökstjänster",
+          "För att kommunicera viktig information om bokningar",
+          "För att förbättra vår webbplats och våra tjänster",
+          "För att uppfylla juridiska skyldigheter"
+        ]
+      },
+      {
+        "title": "Rättslig grund för behandling",
+        "content": [
+          "Vi behandlar dina personuppgifter baserat på en eller flera av följande rättsliga grunder:"
+        ],
+        "items": [
+          "Ditt <b>samtycke</b> (t.ex. nyhetsbrevsregistrering)",
+          "Utförande av ett <b>avtal</b> (t.ex. bokning av tid)",
+          "Vårt <b>berättigade intresse</b> (t.ex. förbättra tjänster)",
+          "<b>Juridisk skyldighet</b> (t.ex. uppfyllande av hälsoregler)"
+        ]
+      },
+      {
+        "title": "Dina rättigheter enligt GDPR",
+        "content": ["Du har rätt att:"],
+        "items": [
+          "Få tillgång till dina personuppgifter",
+          "Rätta eller radera dina uppgifter (“rätten att bli glömd”)",
+          "Begränsa eller motsätta dig behandling",
+          "Dataportabilitet (få dina uppgifter i maskinläsbart format)",
+          "Återkalla ditt samtycke när som helst",
+          "Lämna in ett klagomål till en dataskyddsmyndighet"
+        ],
+        "footer": "För att utöva dessa rättigheter, vänligen kontakta: kontakt@redvetdjurklinik.se"
+      },
+      {
+        "title": "Cookies & Analys",
+        "content": [
+          "Vi använder cookies för att förbättra din upplevelse och analysera trafik via Google Analytics och liknande verktyg. Du kan hantera dina cookie-inställningar i din webbläsare.",
+          "För mer information, se vår Cookiepolicy."
+        ]
+      },
+      {
+        "title": "Datasäkerhet",
+        "content": [
+          "Vi implementerar lämpliga tekniska och organisatoriska åtgärder för att skydda dina uppgifter mot obehörig åtkomst, förlust eller missbruk."
+        ]
+      },
+      {
+        "title": "Lagring av data",
+        "content": [
+          "Vi behåller dina personuppgifter endast så länge det är nödvändigt för de beskrivna ändamålen eller enligt lag."
+        ]
+      },
+      {
+        "title": "Tjänster från tredje part",
+        "content": [
+          "Vi kan dela dina uppgifter med betrodda tredje partsleverantörer (t.ex. e-posttjänster, analysverktyg) under strikta avtal.",
+          "Vissa uppgifter kan överföras utanför EU/EES med adekvata skyddsåtgärder."
+        ]
+      },
+      {
+        "title": "Inbäddat innehåll",
+        "content": [
+          "Vår webbplats kan innehålla inbäddat innehåll såsom videor eller typsnitt från tredje part som kan samla in begränsade uppgifter (t.ex. IP-adress). Vänligen granska deras integritetspolicyer."
+        ],
+        "items": ["Google Privacy Policy", "YouTube Privacy Policy"]
+      },
+      {
+        "title": "Ändringar av denna policy",
+        "content": [
+          "Vi kan uppdatera denna integritetspolicy då och då. Den senaste versionen kommer alltid att finnas på vår webbplats. Fortsatt användning av våra tjänster innebär att du accepterar ändringarna."
+        ]
+      }
+    ],
+    "footer": {
+      "title": "Har du fortfarande frågor?",
+      "content": "Kontakta oss när som helst på: {emailLink}"
+    }
+  },
+  "termsOfService": {
+    "title": "Användarvillkor – RedVet Djurklinik",
+    "lastUpdated": "Senast uppdaterad: 10 juli 2025",
+    "contact": "Kontakt: {emailLink}",
+    "sections": [
+      {
+        "title": "Godkännande av villkor",
+        "content": [
+          "Genom att få åtkomst till eller använda RedVet Djurklinik webbplats och tjänster godkänner du att vara bunden av dessa Användarvillkor och vår Integritetspolicy."
+        ]
+      },
+      {
+        "title": "Tjänstebeskrivning",
+        "content": [
+          "RedVet Djurklinik erbjuder veterinär hembesökstjänster. Vi strävar efter att ge professionell och snabb vård till dina husdjur på den plats du föredrar."
+        ]
+      },
+      {
+        "title": "Användarens ansvar",
+        "content": [
+          "Du godkänner att tillhandahålla korrekt information vid bokning av möten eller kontakt med oss.",
+          "Du är ansvarig för att säkerställa att husdjuren finns tillgängliga vid överenskommen tid och plats."
+        ]
+      },
+      {
+        "title": "Bokning och avbokning av möten",
+        "content": [
+          "Möten kan bokas via kontaktformulär eller telefon.",
+          "Vänligen informera oss så snart som möjligt om du behöver avboka eller ändra ett möte."
+        ]
+      },
+      {
+        "title": "Betalningar och avgifter",
+        "content": [
+          "Tjänsteavgifter meddelas innan besöket.",
+          "Betalningar ska göras enligt överenskomna villkor, antingen på plats eller via faktura."
+        ]
+      },
+      {
+        "title": "Ansvarsbegränsning",
+        "content": [
+          "RedVet Djurklinik ansvarar inte för indirekta, tillfälliga eller följdskador som uppstår vid användning av våra tjänster.",
+          "Vi tillhandahåller veterinärvård baserat på den information och åtkomst som finns tillgänglig vid besökstillfället."
+        ]
+      },
+      {
+        "title": "Immateriella rättigheter",
+        "content": [
+          "Allt innehåll på webbplatsen, inklusive text, bilder och logotyper, ägs av RedVet Djurklinik eller är licensierat till oss och skyddas av immaterialrättslagar."
+        ]
+      },
+      {
+        "title": "Uppsägning",
+        "content": [
+          "Vi förbehåller oss rätten att avsluta eller begränsa åtkomst till våra tjänster när som helst utan föregående meddelande vid överträdelser av dessa villkor."
+        ]
+      },
+      {
+        "title": "Ändringar av villkor",
+        "content": [
+          "Vi kan uppdatera dessa Användarvillkor ibland. Fortsatt användning av webbplatsen och tjänsterna utgör godkännande av de uppdaterade villkoren."
+        ]
+      },
+      {
+        "title": "Tillämplig lag",
+        "content": ["Dessa villkor regleras av Sveriges lagar."]
+      }
+    ],
+    "footer": {
+      "title": "Frågor?",
+      "content": "Kontakta oss på: {emailLink}"
+    }
+  },
+  "CookieManagement": {
+    "title": "Hantera samtycke",
+    "description": "Här kan du anpassa dina cookie-inställningar.",
+    "required-title": "Nödvändiga cookies",
+    "required-description": "Dessa cookies krävs för att webbplatsen ska fungera och kan inte stängas av.",
+    "recaptcha-title": "reCAPTCHA-skydd",
+    "recaptcha-description": "Skyddar formulär från spam och bots.",
+    "analytics-title": "Analytiska cookies",
+    "analytics-description": "Hjälper oss att förstå hur användare använder webbplatsen."
   }
 }

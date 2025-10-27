@@ -111,7 +111,7 @@ export default function ContactUs() {
           </p>
           <button
             onClick={handleConsentAccept}
-            className="bg-white text-black px-4 py-2 rounded mt-10"
+            className="bg-white text-black px-4 py-2 rounded mt-10 cursor-pointer"
           >
             {t('consent-button')}
           </button>
@@ -123,8 +123,11 @@ export default function ContactUs() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-7">
               <div className="relative flex flex-col">
-                <label className="text-white">{t('Owner-label')}</label>
+                <label className="text-white" htmlFor="ownerName">
+                  {t('Owner-label')}
+                </label>
                 <input
+                  id="ownerName"
                   type="text"
                   placeholder={t('Owner-placeholder')}
                   {...form.register('ownerName')}
@@ -139,8 +142,11 @@ export default function ContactUs() {
               </div>
 
               <div className="relative flex flex-col">
-                <label className="text-white">{t('Animal-label')}</label>
+                <label className="text-white" htmlFor="animalName">
+                  {t('Animal-label')}
+                </label>
                 <input
+                  id="animalName"
                   type="text"
                   placeholder={t('Animal-placeholder')}
                   {...form.register('animalName')}
@@ -155,8 +161,11 @@ export default function ContactUs() {
               </div>
 
               <div className="relative flex flex-col">
-                <label className="text-white">{t('Email-label')}</label>
+                <label className="text-white" htmlFor="email">
+                  {t('Email-label')}
+                </label>
                 <input
+                  id="email"
                   type="email"
                   placeholder={t('Email-placeholder')}
                   {...form.register('email')}
@@ -171,8 +180,11 @@ export default function ContactUs() {
               </div>
 
               <div className="relative flex flex-col">
-                <label className="text-white">{t('Tel-label')}</label>
+                <label className="text-white" htmlFor="tel">
+                  {t('Tel-label')}
+                </label>
                 <input
+                  id="tel"
                   type="tel"
                   placeholder={t('Tel-placeholder')}
                   {...form.register('tel')}
@@ -187,8 +199,11 @@ export default function ContactUs() {
 
             <div className="space-y-6 h-full">
               <div className="relative h-full grid grid-rows-[auto_1fr]">
-                <label className="text-white">{t('Message-label')}</label>
+                <label className="text-white" htmlFor="message">
+                  {t('Message-label')}
+                </label>
                 <textarea
+                  id="message"
                   placeholder={t('Message-placeholder')}
                   {...form.register('message')}
                   {...accessibilityProps}
@@ -205,7 +220,7 @@ export default function ContactUs() {
 
           <button
             type="submit"
-            className="bg-transparent border-2 border-white focus-visible:ring-[1px] w-full mt-10 hover:border-0 hover:bg-white hover:text-black text-white h-10 text-lg"
+            className="bg-transparent border-2 border-white focus-visible:ring-[1px] w-full mt-10 hover:border-0 hover:bg-white hover:text-black text-white h-10 text-lg cursor-pointer"
             {...accessibilityProps}
           >
             {t('Button-submit')}

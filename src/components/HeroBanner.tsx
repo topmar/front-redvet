@@ -22,7 +22,6 @@ const HeroBanner = async () => {
             className="drop-shadow-xl/50 font-medium text-left"
             dangerouslySetInnerHTML={{ __html: t('title-row1') }}
           />
-          {/* <h2 className="pl-1 text-xl drop-shadow-xl/50 mt-[1rem] font-medium text-left"> */}
           <h2 className="pl-1 text-xl text-shadow-xl text-shadow-amber-200/50 drop-shadow-xl/50 mt-[1rem] font-medium text-left">
             {t('title-row2')}
           </h2>

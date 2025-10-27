@@ -2,10 +2,10 @@ import Image from 'next/image'
 import InstagramLogoSVG from './InstagramLogoSVG'
 import ContactFooter from './ContactFooter'
 import GoogleRating from './GoogleRating'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getTranslations } from 'next-intl/server'
 import LogoSVG from './logo/LogoSVG'
 import { Link } from '@/i18n/navigation'
-import { NAV_ITEMS, NavPath } from '@/lib/navigation'
+import { NAV_ITEMS } from '@/lib/navigation'
 
 const FooterInfo = async () => {
   const t = await getTranslations('FooterInfo')

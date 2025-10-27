@@ -18,7 +18,7 @@
     "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
   },
   "HeroBanner": {
-    "title-row1": "VETERINARY CARE WITH LOVE",
+    "title-row1": "VETERINARY CARE WITH&nbsp;LOVE",
     "title-row2": "Veterinary services at your home",
     "button-book-appointment": "Book home visit"
   },
@@ -72,7 +72,7 @@
     "Error-message-too-long": "Message is too long",
     "Send-success": "Form submitted successfully",
     "Error-send": "Error sending the form",
-    "consent-message": "To use this form, you must accept essential cookies. We use Google reCAPTCHA for spam protection. If you need more information, please read <policy>here</policy> or accept to continue.",
+    "consent-message": "To use this form, you must accept essential cookies. We use Google reCAPTCHA for spam protection. If you need more information, please read <policy>Privacy Policy</policy> or accept to continue.",
     "consent-button": "Accept essential cookies",
     "recaptcha": "This site is protected by reCAPTCHA and the Google <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> apply."
   },
@@ -100,10 +100,51 @@
     "prev": "Previous news item",
     "next": "Next news item"
   },
+  "FooterCopyright": {
+    "privacy-policy": "Privacy Policy",
+    "terms-of-service": "Terms of Service",
+    "cookies-management": "Cookies management"
+  },
   "CookieDrawer": {
-    "title": "This website uses cookies to ensure you get the best experience on our website. By using our site, you acknowledge that you have read and understood our Cookie Policy.",
-    "accept-button": "Accept All Cookies",
-    "settings-button": "Cookies Settings"
+    "title": "This website uses cookies to ensure site functionality, protect forms, and analyze traffic. By clicking \u201EAccept\u00A0all\u00A0cookies\u201D, you consent to their use. You can always change your preferences in Cookie\u00A0settings. See\u00A0our\u00A0<cookiePolicy>Cookie\u00A0Policy</cookiePolicy>.",
+    "accept-button": "Accept all cookies",
+    "settings-button": "Cookie settings"
+  },
+  "CookieSettings": {
+    "title": "Cookie Settings",
+    "description": "You can customize your cookie preferences here. Required cookies are essential for the website to function correctly, while optional cookies can be enabled or disabled according to your choice.",
+    "required-title": "Necessary Cookies",
+    "required-description": "These cookies are necessary for the website to function and cannot be disabled.",
+    "recaptcha-title": "reCAPTCHA Protection",
+    "recaptcha-description": "Protects forms from spam and bots using Google reCAPTCHA cookies. Enabling these cookies allows you to contact us via our forms.",
+    "analytics-title": "Analytics Cookies",
+    "analytics-description": "These cookies, set by Google Analytics, collect anonymous information about how users interact with our website. They help us improve site performance and user experience.",
+    "accept-button": "Accept all",
+    "decline-button": "Decline all",
+    "save-button": "Save settings"
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: September 1, 2025",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": [
+          "This Cookie Policy explains how RedVet AB uses cookies and similar technologies on our website. Cookies are small text files stored on your device that help us provide essential website functions, remember your preferences, analyze site usage, and protect our services from abuse.",
+          "By continuing to use our website, you consent to the use of cookies as described in this policy."
+        ]
+      },
+      {
+        "title": "Types of Cookies We Use",
+          "items": [
+            "<b>Necessary Cookies</b>"
+          ]
+      }
+    ],
+    "footer": {
+      "title": "Still have questions?",
+      "content": "Contact us anytime at: {emailLink}"
+    }
   },
   "privacyPolicy": {
     "title": "Privacy Policy – RedVet Djurklinik",

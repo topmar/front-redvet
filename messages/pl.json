@@ -1,13 +1,13 @@
 {
   "HomePage": {
-    "page-title": "Weterynarz z dojazdem w Sztokholmie - Profesjonalna opieka w domu dla psa, kota i królika.",
-    "page-description": "Umów wizytę domową doświadczonego weterynarza w regionie Sztokholmu. Oferujemy profesjonalną i wygodną opiekę w Twoim domu - dla psów, kotów i królików, które zasługują na to, co najlepsze."
+    "page-title": "Weterynaryjne wizyty domowe w Sztokholmie – Profesjonalna opieka w domu dla psów, kotów i królików.",
+    "page-description": "Umów wizytę domową u doświadczonego weterynarza w Wielkim Sztokholmie. Oferujemy profesjonalną i wygodną opiekę w Twoim domu – dla psów, kotów i królików, które zasługują na najlepszą opiekę."
   },
   "Navigation": {
     "services": "Usługi weterynaryjne",
     "home-visit": "Wizyta domowa",
     "prices": "Cennik",
-    "advices": "Porady i wskazówki",
+    "advices": "Porady & Wskazówki",
     "book": "Umów wizytę"
   },
   "Logo": {
@@ -15,10 +15,10 @@
   },
   "LocaleSwitcher": {
     "label": "Zmień język",
-    "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Other}}"
+    "locale": "{locale, select, sv {Sv} en {En} pl {Pl} other {Inny}}"
   },
   "HeroBanner": {
-    "title-row1": "VETERYNARIA Z MIŁOŚCIĄ",
+    "title-row1": "WETERYNARNA OPIEKA Z&nbsp;MIŁOŚCIĄ",
     "title-row2": "Usługi weterynaryjne w Twoim domu",
     "button-book-appointment": "Umów wizytę domową"
   },
@@ -32,19 +32,19 @@
       "aria-label": "Dowiedz się więcej o opiece weterynaryjnej w domu"
     },
     "end-of-life": {
-      "text": "OPIEKA W OSTATNICH\nCHWILACH ŻYCIA",
-      "aria-label": "Dowiedz się więcej o opiece w ostatnich chwilach życia"
-    }
+      "text": "OPIEKA W KOŃCOWEJ\nFAZIE ŻYCIA",
+      "aria-label": "Dowiedz się więcej o opiece w końcowej fazie życia"
+    },
+    "read-more": "Czytaj dalej →"
   },
   "HeroAbout": {
     "title": "WITAMY W REDVET DJURKLINIK",
     "subtitle": "Zadzwoń do nas pod numer <link>{tel}</link>",
-    "description": "W RedVet zapewniamy wysokiej jakości opiekę weterynaryjną, kładąc duży nacisk na współczucie i profesjonalizm. Nasz doświadczony zespół dba o zdrowie i dobre samopoczucie Twoich pupili, oferując szeroki zakres usług, które spełniają ich potrzeby.",
-    "link-text": "Więcej o nas",
-    "link": "/about"
+    "description": "W RedVet oferujemy wysokiej jakości opiekę weterynaryjną z naciskiem na współczucie i profesjonalizm. Nasz doświadczony zespół dba o zdrowie i dobro Twoich zwierząt, oferując szeroki zakres usług dostosowanych do ich potrzeb.",
+    "link-text": "Więcej o nas"
   },
   "HeroBooking": {
-    "title": "UMÓW SIĘ NA NASTĘPNĄ WIZYTĘ",
+    "title": "UMÓW NASTĘPNĄ WIZYTĘ JUŻ TERAZ",
     "link": "UMÓW WIZYTĘ"
   },
   "OpeningTime": {
@@ -62,30 +62,33 @@
     "Tel-label": "Numer telefonu",
     "Tel-placeholder": "Wpisz swój numer telefonu",
     "Message-label": "Wiadomość",
-    "Message-placeholder": "Wpisz swoją wiadomość",
+    "Message-placeholder": "Wpisz wiadomość",
     "Button-submit": "WYŚLIJ",
     "Error-owner": "Imię właściciela jest wymagane",
-    "Error-email": "Podaj prawidłowy adres e-mail",
+    "Error-email": "Proszę wpisać poprawny adres e-mail",
     "Error-tel-too-short": "Numer telefonu jest za krótki",
     "Error-tel-too-long": "Numer telefonu jest za długi",
     "Error-message-too-short": "Wiadomość jest za krótka",
     "Error-message-too-long": "Wiadomość jest za długa",
     "Send-success": "Formularz został wysłany pomyślnie",
-    "Error-send": "Wystąpił błąd przy wysyłaniu formularza"
+    "Error-send": "Błąd wysyłania formularza",
+    "consent-message": "Aby korzystać z tego formularza, musisz zaakceptować niezbędne ciasteczka. Używamy Google reCAPTCHA w celu ochrony przed spamem. Jeśli potrzebujesz więcej informacji, przeczytaj <policy>Politykę prywatności</policy> lub zaakceptuj, aby kontynuować.",
+    "consent-button": "Akceptuj niezbędne ciasteczka",
+    "recaptcha": "Ta strona jest chroniona przez reCAPTCHA, a obowiązują <privacy>Polityka prywatności</privacy> i <terms>Warunki korzystania</terms> Google."
   },
   "FooterInfo": {
     "facebook-title": "Odwiedź nas na Facebooku",
     "facebook-link": "Odwiedź naszą stronę na Facebooku",
     "instagram-title": "Odwiedź nas na Instagramie",
-    "instagram-link": "Odwiedź naszego Instagrama"
+    "instagram-link": "Odwiedź nas na Instagramie"
   },
   "GoogleRating": {
-    "rating": "Ocena: {rating} na 5",
-    "reviews": "{count} recenzji Google"
+    "rating": "Ocena: {rating} z 5",
+    "reviews": "{count} opinii w Google"
   },
   "HeroReviews": {
     "title": "Co mówią nasi klienci",
-    "description": "Dowiedz się, jak pomagamy zwierzętom i ich opiekunom"
+    "description": "Dowiedz się, jak zmieniliśmy życie zwierząt i ich właścicieli"
   },
   "FooterContact": {
     "contact-us": "Skontaktuj się z nami przez",
@@ -96,5 +99,222 @@
     "headline": "Aktualności",
     "prev": "Poprzednia wiadomość",
     "next": "Następna wiadomość"
+  },
+  "FooterCopyright": {
+    "privacy-policy": "Polityka prywatności",
+    "terms-of-service": "Regulamin",
+    "cookies-management": "Zarządzanie plikami cookie"
+  },
+  "CookieDrawer": {
+    "title": "Ta strona używa plików cookie, aby zapewnić funkcjonalność witryny, chronić formularze i analizować ruch. Klikając \u201EAkceptuj\u00A0wszystkie\u00A0ciasteczka\u00A0\u201D, wyrażasz zgodę na ich używanie. Zawsze możesz zmienić swoje preferencje w Ustawieniach cookie. Zobacz\u00A0naszą\u00A0<cookiePolicy>Politykę\u00A0Cookie</cookiePolicy>.",
+    "accept-button": "Akceptuj wszystkie ciasteczka",
+    "settings-button": "Ustawienia ciasteczek"
+  },
+  "CookieSettings": {
+    "title": "Ustawienia Ciasteczek",
+    "description": "You can customize your cookie preferences here. Required cookies are essential for the website to function correctly, while optional cookies can be enabled or disabled according to your choice.",
+    "required-title": "Wymagane Ciasteczka",
+    "required-description": "These cookies are necessary for the website to function and cannot be disabled.",
+    "recaptcha-title": "Zabezpieczenie reCAPTCHA",
+    "recaptcha-description": "Chroni formularze przed spamem i botami za pomocą ciasteczek Google reCAPTCHA. Włączenie tych ciasteczek pozwala na kontakt z nami poprzez formularze.",
+    "analytics-title": "Analityczne Ciasteczka",
+    "analytics-description": "Te ciasteczka, ustawiane przez Google Analytics, zbierają anonimowe informacje o tym, jak użytkownicy korzystają z naszej strony. Pomagają nam ulepszać działanie strony i doświadczenie użytkownika.",
+    "accept-button": "Akceptuj wszystkie",
+    "decline-button": "Odrzuć wszystkie",
+    "save-button": "Zapisz ustawienia"
+  },
+  "privacyPolicy": {
+    "title": "Polityka prywatności – RedVet Djurklinik",
+    "lastUpdated": "Ostatnia aktualizacja: 10 lipca 2025",
+    "contact": "Kontakt: {emailLink}",
+    "sections": [
+      {
+        "title": "Przegląd",
+        "content": [
+          "Niniejsza Polityka prywatności wyjaśnia, w jaki sposób RedVet Djurklinik („my”, „nas”, „nasze”) zbiera, wykorzystuje, przechowuje i chroni Twoje dane osobowe podczas korzystania z naszej strony internetowej i usług. „Dane osobowe” oznaczają wszelkie informacje, które mogą bezpośrednio lub pośrednio identyfikować Cię jako osobę fizyczną.",
+          "Zobowiązujemy się chronić Twoją prywatność i przestrzegać Ogólnego rozporządzenia o ochronie danych (RODO) oraz innych obowiązujących przepisów dotyczących ochrony danych."
+        ]
+      },
+      {
+        "title": "Kim jesteśmy",
+        "content": [
+          "<b>Administrator danych:</b>",
+          "RedVet Djurklinik",
+          "Szwecja",
+          "{emailLink}",
+          "Jesteśmy odpowiedzialni za określenie celów i sposobów przetwarzania Twoich danych osobowych."
+        ]
+      },
+      {
+        "title": "Jakie dane zbieramy",
+        "content": ["Możemy zbierać następujące kategorie danych osobowych:"],
+        "items": [
+          "<b>Dane podawane bezpośrednio:</b> imię i nazwisko, adres e-mail, numer telefonu, wiadomości przesyłane przez formularze kontaktowe.",
+          "<b>Dane techniczne:</b> adres IP, typ przeglądarki, informacje o urządzeniu, pliki cookie.",
+          "<b>Dane o użytkowaniu:</b> interakcje z naszą stroną internetową i usługami."
+        ]
+      },
+      {
+        "title": "Dlaczego zbieramy Twoje dane",
+        "content": ["Zbieramy dane w następujących celach:"],
+        "items": [
+          "Aby odpowiadać na Twoje zapytania i świadczyć usługi weterynaryjne w domu",
+          "Aby komunikować ważne informacje dotyczące wizyt",
+          "Aby ulepszać naszą stronę internetową i usługi",
+          "Aby spełniać obowiązki prawne"
+        ]
+      },
+      {
+        "title": "Podstawy prawne przetwarzania",
+        "content": [
+          "Przetwarzamy Twoje dane osobowe na podstawie jednej lub więcej z następujących podstaw prawnych:"
+        ],
+        "items": [
+          "Twoja <b>zgoda</b> (np. zapisanie się do newslettera)",
+          "Wykonanie <b>umowy</b> (np. rezerwacja wizyty)",
+          "Nasz <b>uzasadniony interes</b> (np. ulepszanie usług)",
+          "<b>Obowiązek prawny</b> (np. przestrzeganie przepisów zdrowotnych)"
+        ]
+      },
+      {
+        "title": "Twoje prawa według RODO",
+        "content": ["Masz prawo do:"],
+        "items": [
+          "Dostępu do swoich danych osobowych",
+          "Sprostowania lub usunięcia danych („prawo do bycia zapomnianym”)",
+          "Ograniczenia lub sprzeciwu wobec przetwarzania",
+          "Przenoszenia danych (otrzymanie danych w formacie do odczytu maszynowego)",
+          "Wycofania zgody w dowolnym momencie",
+          "Złożenia skargi do organu ochrony danych"
+        ],
+        "footer": "Aby skorzystać z tych praw, skontaktuj się pod adresem: kontakt@redvetdjurklinik.se"
+      },
+      {
+        "title": "Pliki cookie i analityka",
+        "content": [
+          "Używamy plików cookie, aby poprawić Twoje doświadczenia i analizować ruch za pomocą Google Analytics i podobnych narzędzi. Możesz zarządzać preferencjami dotyczącymi plików cookie w ustawieniach przeglądarki.",
+          "Szczegółowe informacje znajdziesz w naszej Polityce Cookie."
+        ]
+      },
+      {
+        "title": "Bezpieczeństwo danych",
+        "content": [
+          "Stosujemy odpowiednie środki techniczne i organizacyjne w celu ochrony Twoich danych przed nieautoryzowanym dostępem, utratą lub niewłaściwym użyciem."
+        ]
+      },
+      {
+        "title": "Przechowywanie danych",
+        "content": [
+          "Przechowujemy Twoje dane osobowe tylko tak długo, jak jest to konieczne do opisanych celów lub wymagane przepisami prawa."
+        ]
+      },
+      {
+        "title": "Usługi stron trzecich",
+        "content": [
+          "Możemy udostępniać Twoje dane zaufanym podmiotom trzecim (np. usługodawcom e-mail, analityce) na podstawie ścisłych umów.",
+          "Niektóre dane mogą być przekazywane poza UE/EOG przy odpowiednich zabezpieczeniach."
+        ]
+      },
+      {
+        "title": "Osadzone treści",
+        "content": [
+          "Nasza strona może zawierać osadzone treści, takie jak filmy lub czcionki od stron trzecich, które mogą zbierać ograniczone dane (np. adres IP). Prosimy o zapoznanie się z ich polityką prywatności."
+        ],
+        "items": ["Polityka prywatności Google", "Polityka prywatności YouTube"]
+      },
+      {
+        "title": "Zmiany w polityce",
+        "content": [
+          "Możemy od czasu do czasu aktualizować niniejszą Politykę prywatności. Najnowsza wersja będzie zawsze dostępna na naszej stronie. Kontynuowanie korzystania z usług oznacza akceptację zmian."
+        ]
+      }
+    ],
+    "footer": {
+      "title": "Masz pytania?",
+      "content": "Skontaktuj się z nami w każdej chwili pod adresem: {emailLink}"
+    }
+  },
+  "termsOfService": {
+    "title": "Regulamin – RedVet Djurklinik",
+    "lastUpdated": "Ostatnia aktualizacja: 10 lipca 2025",
+    "contact": "Kontakt: {emailLink}",
+    "sections": [
+      {
+        "title": "Akceptacja regulaminu",
+        "content": [
+          "Korzystając z witryny i usług RedVet Djurklinik, zgadzasz się na przestrzeganie niniejszego Regulaminu oraz naszej Polityki Prywatności."
+        ]
+      },
+      {
+        "title": "Opis usług",
+        "content": [
+          "RedVet Djurklinik świadczy usługi weterynaryjne w formie wizyt domowych. Naszym celem jest zapewnienie profesjonalnej i terminowej opieki Twoim zwierzętom w wybranym przez Ciebie miejscu."
+        ]
+      },
+      {
+        "title": "Obowiązki użytkownika",
+        "content": [
+          "Zobowiązujesz się do podawania prawidłowych informacji podczas rezerwacji wizyt lub kontaktu z nami.",
+          "Jesteś odpowiedzialny za zapewnienie dostępności zwierząt w uzgodnionym czasie i miejscu."
+        ]
+      },
+      {
+        "title": "Rezerwacja i anulowanie wizyt",
+        "content": [
+          "Wizyty można rezerwować poprzez formularz kontaktowy lub telefonicznie.",
+          "Prosimy o jak najszybsze poinformowanie nas w przypadku konieczności odwołania lub zmiany terminu wizyty."
+        ]
+      },
+      {
+        "title": "Płatności i opłaty",
+        "content": [
+          "Koszty usług zostaną przekazane przed wizytą.",
+          "Płatności należy dokonywać zgodnie z ustalonymi warunkami, na miejscu lub poprzez fakturę."
+        ]
+      },
+      {
+        "title": "Ograniczenie odpowiedzialności",
+        "content": [
+          "RedVet Djurklinik nie ponosi odpowiedzialności za jakiekolwiek pośrednie, przypadkowe lub wynikowe szkody wynikające z korzystania z naszych usług.",
+          "Świadczymy opiekę weterynaryjną na podstawie informacji i dostępu dostępnych w czasie wizyty."
+        ]
+      },
+      {
+        "title": "Własność intelektualna",
+        "content": [
+          "Wszystkie treści na stronie, w tym teksty, obrazy i logotypy, należą do RedVet Djurklinik lub zostały nam licencjonowane i są chronione przepisami prawa własności intelektualnej."
+        ]
+      },
+      {
+        "title": "Rozwiązanie umowy",
+        "content": [
+          "Zastrzegamy sobie prawo do zakończenia lub ograniczenia dostępu do naszych usług w dowolnym momencie bez uprzedniego powiadomienia w przypadku naruszenia niniejszego Regulaminu."
+        ]
+      },
+      {
+        "title": "Zmiany regulaminu",
+        "content": [
+          "Regulamin może być od czasu do czasu aktualizowany. Kontynuowanie korzystania ze strony i usług oznacza akceptację zaktualizowanego Regulaminu."
+        ]
+      },
+      {
+        "title": "Prawo właściwe",
+        "content": ["Niniejszy Regulamin podlega prawu Szwecji."]
+      }
+    ],
+    "footer": {
+      "title": "Pytania?",
+      "content": "Skontaktuj się z nami: {emailLink}"
+    }
+  },
+  "CookieManagement": {
+    "title": "Zarządzanie zgodami",
+    "description": "Tutaj możesz dostosować swoje preferencje dotyczące plików cookie.",
+    "required-title": "Niezbędne pliki cookie",
+    "required-description": "Te pliki cookie są wymagane do działania strony i nie mogą być wyłączone.",
+    "recaptcha-title": "Ochrona reCAPTCHA",
+    "recaptcha-description": "Chroni formularze przed spamem i botami.",
+    "analytics-title": "Analityczne pliki cookie",
+    "analytics-description": "Pomagają nam zrozumieć, jak użytkownicy korzystają ze strony."
   }
 }

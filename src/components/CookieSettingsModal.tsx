@@ -1,14 +1,15 @@
 'use client'
 
 import { useCookieConsentContext } from '@/contexts/CookieConsentContext'
+import { useTranslations } from 'next-intl'
 import { useEffect, useState } from 'react'
 
 const CookieSettingsModal = () => {
   const { isRecaptchaAllowed, isAnalyticsAllowed, setAllConsent, disableAllConsent, saveConsent } =
     useCookieConsentContext()
-
   const [recaptcha, setRecaptcha] = useState(false)
   const [analytics, setAnalytics] = useState(false)
+  const t = useTranslations('CookieSettings')
 
   useEffect(() => {
     setRecaptcha(isRecaptchaAllowed())
@@ -18,23 +19,27 @@ const CookieSettingsModal = () => {
   return (
     <dialog
       id="cookie-settings-modal"
-      className="inset-0 m-auto rounded-xl w-full max-w-xl p-6 backdrop:bg-black/85"
+      className="inset-0 m-auto rounded-xl w-full max-w-xl backdrop:bg-black/85"
     >
-      <form method="dialog" className="max-w-3xl mx-auto p-6 space-y-8">
+      {/* <form method="dialog" className="max-w-3xl mx-auto p-6 space-y-4"> */}
+      <form method="dialog" className="max-w-3xl mx-auto flex flex-col h-full">
         <button
           aria-label="Close"
-          className="absolute top-3 right-3 text-4xl font-bold leading-none hover:text-gray-500"
+          className="absolute top-2 right-3 text-4xl font-bold leading-none hover:text-gray-500 cursor-pointer"
         >
           ×
         </button>
-        <h1 className="text-2xl font-bold">Cookie Settings</h1>
-        <p className="text-gray-700">Beskrivning av cookiernas syfte.</p>
+        <h1 className="text-2xl pt-4 px-4 sm:pt-6 sm:px-6 font-bold">{t('title')}</h1>
+        <p className="px-4 sm:px-6 sm:pt-2 text-gray-700">{t('description')}</p>
 
-        <div className="space-y-6">
-          <div className="flex items-center justify-between border-b pb-4">
-            <div>
-              <h2 className="font-medium">Nödvändiga cookies</h2>
-              <p className="text-sm text-gray-600">Kan inte inaktiveras.</p>
+        <div className="p-4 sm:p-6 sm:pb-0">
+          <label
+            htmlFor="required-toggle"
+            className="flex items-center justify-between border-b pb-4 mb-4"
+          >
+            <div className="mr-4">
+              <h2 className="text-xl sm:text-2xl font-medium">{t('required-title')}</h2>
+              <p className="text-sm text-gray-600 max-w-100">{t('required-description')}</p>
             </div>
             <input
               type="checkbox"
@@ -44,12 +49,15 @@ const CookieSettingsModal = () => {
               readOnly
               disabled
             />
-          </div>
+          </label>
 
-          <div className="flex items-center justify-between border-b pb-4">
-            <div>
-              <h2 className="font-medium">reCAPTCHA</h2>
-              <p className="text-sm text-gray-600">Skyddar formulär mot spam.</p>
+          <label
+            htmlFor="recaptcha-toggle"
+            className="flex items-center justify-between border-b pb-4 mb-4"
+          >
+            <div className="mr-4">
+              <h2 className="text-xl sm:text-2xl font-medium">{t('recaptcha-title')}</h2>
+              <p className="text-sm text-gray-600 max-w-100">{t('recaptcha-description')}</p>
             </div>
             <input
               type="checkbox"
@@ -58,12 +66,15 @@ const CookieSettingsModal = () => {
               checked={recaptcha}
               onChange={(e) => setRecaptcha(e.target.checked)}
             />
-          </div>
+          </label>
 
-          <div className="flex items-center justify-between border-b pb-4">
-            <div>
-              <h2 className="font-medium">Analys</h2>
-              <p className="text-sm text-gray-600">Hjälper oss förbättra webbplatsen.</p>
+          <label
+            htmlFor="analytics-toggle"
+            className="flex items-center justify-between border-b  pb-4"
+          >
+            <div className="mr-4">
+              <h2 className="text-xl sm:text-2xl font-medium">{t('analytics-title')}</h2>
+              <p className="text-sm text-gray-600 max-w-100">{t('analytics-description')}</p>
             </div>
             <input
               type="checkbox"
@@ -72,39 +83,41 @@ const CookieSettingsModal = () => {
               checked={analytics}
               onChange={(e) => setAnalytics(e.target.checked)}
             />
-          </div>
+          </label>
         </div>
 
-        <div className="flex gap-4 pt-6">
+        <div className="flex flex-col sm:flex-row gap-4 w-full sticky bottom-0 bg-white p-4 sm:p-6">
           <button
             type="button"
-            className="px-4 py-2 bg-green-600 text-white rounded"
+            className="flex-1 px-4 py-2 bg-green-600 text-white rounded cursor-pointer"
             onClick={() => {
               setAllConsent()
-              (document.getElementById('cookie-settings-modal') as HTMLDialogElement | null)?.close()
+              ;(
+                document.getElementById('cookie-settings-modal') as HTMLDialogElement | null
+              )?.close()
             }}
           >
-            Acceptera alla
+            {t('accept-button')}
           </button>
           <button
             type="button"
-            className="px-4 py-2 bg-red-600 text-white rounded"
+            className="flex-1 px-4 py-2 bg-red-600 text-white rounded cursor-pointer"
             onClick={() => {
               disableAllConsent()
               location.reload()
             }}
           >
-            Avböj alla
+            {t('decline-button')}
           </button>
           <button
             type="button"
-            className="px-4 py-2 bg-gray-400 text-black rounded"
+            className="flex-1 px-4 py-2 bg-gray-400 text-black rounded cursor-pointer"
             onClick={() => {
               saveConsent({ recaptcha, analytics })
               location.reload()
             }}
           >
-            Spara inställningar
+            {t('save-button')}
           </button>
         </div>
       </form>

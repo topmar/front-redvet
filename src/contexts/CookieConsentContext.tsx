@@ -76,6 +76,7 @@ export const CookieConsentProvider = ({ children }: { children: React.ReactNode 
   }, [])
 
   const setAllConsent = () => saveConsent({ recaptcha: true, analytics: true })
+
   const disableAllConsent = () => saveConsent({ recaptcha: false, analytics: false })
 
   const setReCaptchaConsent = (value: boolean) => {

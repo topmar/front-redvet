@@ -3,6 +3,9 @@ import { defineRouting } from 'next-intl/routing'
 export const routing = defineRouting({
   // A list of all locales that are supported
   locales: ['sv', 'en', 'pl'],
+  localeCookie: {
+    maxAge: 60 * 60 * 24 * 365 * 5
+  },
 
   // Used when no locale matches
   defaultLocale: 'sv',
